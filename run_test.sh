@@ -38,3 +38,8 @@ git config --global user.email $email
 
 
 git config --list
+
+
+echo -n "Install brave browser"
+
+sudo snap install brave
