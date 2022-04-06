@@ -1,5 +1,5 @@
 #!/bin/bash
-mkdir ~/opt
+mkdir -p ~/opt
 guix pull -p ~/opt/guix-pull
 
 
@@ -11,20 +11,17 @@ git clone "https://git.genenetwork.org/guix-bioinformatics/guix-bioinformatics.g
 
 git clone "https://gitlab.inria.fr/guix-hpc/guix-past.git" ~/guix-past
 
+mkdir -p ~/data
 
-wget "http://ipfs.genenetwork.org/ipfs/QmXQy3DAUWJuYxubLHLkPMNCEVq1oV7844xWG2d1GSPFPL/genotype_files.tar.7z"
-
-
-cd ~/Downloads
+cd ~/data
 
 sudo apt-get install p7zip-full
 
+wget "http://ipfs.genenetwork.org/ipfs/QmXQy3DAUWJuYxubLHLkPMNCEVq1oV7844xWG2d1GSPFPL/genotype_files.tar.7z" 
+
+
+
 7z x genotype_files.tar.7z
-
-
-mkdir -p ~/data
-
-cd `$HOME`
 
 
 
