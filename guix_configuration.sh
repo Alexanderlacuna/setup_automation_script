@@ -1,5 +1,8 @@
 #!/bin/bash
 
+
+#for safety
+
 cp ~./profile    ~./old_profile
 
 guix pull
@@ -9,11 +12,8 @@ hash guix
 echo `which guix`
 
 
-git clone "path to configuration file"
 
-cd "cloned directory"
-
-cp "~/cloned_director/guixrc" ~/.guixrc
+cp ./.guixrc ~/.guixrc
 
 
 echo "source ~/.guixrc" >> ~/.profile

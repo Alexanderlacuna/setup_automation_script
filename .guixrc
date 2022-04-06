@@ -1,0 +1,20 @@
+#Set user's default guix profile
+GUIX_PROFILE="$HOME/.guix-profile"
+# Load the guix profile:
+source "$GUIX_PROFILE/etc/profile"
+export GUIX_LOCPATH="$HOME/.guix-profile/lib/locale"
+export GUIX_PACKAGE_PATH=~/guix-packages
+export GUILE_LOAD_PATH=~/.config/guix/current/share/guile/site/3.0
+export GUILE_LOAD_COMPILED_PATH=~/.config/guix/current/lib/guile/3.0/site-ccache
+# Set a default GTK Theme:
+#export GTK_THEME="Default"
+export PATH="$HOME/.config/guix/current/bin${PATH:+:}$PATH"
+#export PATH="$HOME/.emacs.d/bin"
+# Prevent the graphical login to fa
+export XDG_DATA_DIRS="$XDG_DATA_DIRS${XDG_DATA_DIRS:+:}/usr/local/share/:/usr/share/"
+# Make sure to use up-to-date guix binary:
+#export PATH="$HOME/.config/guix/current/bin${PATH:+:}$PATH"
+
+# Make sure to use up-to-date info material:
+export INFOPATH="$HOME/.config/guix/current/share/info${INFOPATH:+:}$INFOPATH"
+
