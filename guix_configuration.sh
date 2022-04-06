@@ -20,4 +20,4 @@ echo "source ~/.guixrc" >> ~/.profile
 
 RED='\033[0;31m'
 
-echo -e "Perform a logout ${RED}"
+echo -e "${RED}Perform a logout"
