@@ -3,7 +3,7 @@
 
 #for safety
 
-cp ~./profile    ~./old_profile
+cp ~/.profile    ~/.old_profile
 
 guix pull
 
