@@ -5,7 +5,11 @@
  # fetch the github repo
 
 mkdir -p  ~/.emacs.d
-git clone "https://github.com/Alexanderlacuna/Emacs-Config.git"  ~
+
+
+cd ~
+
+git clone "https://github.com/Alexanderlacuna/Emacs-Config.git" 
 
 
 
@@ -14,4 +18,4 @@ cp ~/Emacs-Config/init3.el ~/.emacs.d/init.el
 
 mkdir -p ~/.emacs.d/settings
 
-cp ~/Emacs-Config/settings ~/.emacs.d
+cp -r ~/Emacs-Config/settings ~/.emacs.d
