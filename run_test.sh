@@ -43,3 +43,13 @@ git config --list
 echo -n "Install brave browser"
 
 sudo snap install brave
+
+
+
+
+echo -n "removing firefox"
+
+sudo apt-get --purge autoremove firefox
+sudo rm -Rf /etc/firefox/
+
+sudo rm -Rf /usr/lib/firefox*
