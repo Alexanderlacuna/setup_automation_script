@@ -107,5 +107,23 @@ play around with org roam
 - work from 22:45
    - look at the pca issues
    - allocate time for the advanced bioinformatics course
+   
    -  find issues for the new week
    - finish on the pr on gn3
+
+- rebuild genenetwork
+
+   -  remove rpy2 from the build so hectic
+   
+   - try to build genenetwork 3
+
+
+
+11/04/2022
+
+-  todo
+   - r-ctl is causing building failure so find the substiutes
+   -  report too make packages ing gn2 especially rust and rpy2
+     causing build errors
+   - rewrite for the r-ctl package
+   - remove from gn2 rpy2
