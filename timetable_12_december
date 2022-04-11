@@ -127,3 +127,8 @@ play around with org roam
      causing build errors
    - rewrite for the r-ctl package
    - remove from gn2 rpy2
+
+- same issue facing building gn2 so many dependencies
+
+   -  todo refix the errors for ctl
+   -  look at correlation
