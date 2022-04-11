@@ -11,7 +11,7 @@
 
 ### books
 
-   -  effetive python
+   -  effective python
 
 
 
