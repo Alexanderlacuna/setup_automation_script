@@ -132,3 +132,23 @@ play around with org roam
 
    -  todo refix the errors for ctl
    -  look at correlation
+
+
+** first thing is build environment for gn2
+
+** update source links for guix
+    -  python-rpy2 ** use one provided by guix
+    - ctl
+
+    - send patches to aaron by 2:30
+    - python-rpy2 and ctl source
+
+** 14:00 -> 14:30 budgeting things
+
+** task completed at 16:03 try to rebuild genenetwork then
+send patch to arun
+
+*8 successfully sent the patches at 16:34
+
+
+** start working on slow correlation issue:
