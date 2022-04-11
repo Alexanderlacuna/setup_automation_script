@@ -28,3 +28,7 @@
 ### copyings keys
 
 https://superuser.com/questions/332510/how-to-transfer-my-ssh-keys-to-another-machine
+
+## Mathematics
+
+- combinatory mathematics->https://www.britannica.com/science/combinatorics
