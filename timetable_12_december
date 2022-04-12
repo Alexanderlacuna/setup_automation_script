@@ -173,3 +173,27 @@ send patch to arun
 
 
 ** just work on the issues (make a good documentation)
+
+** read the previous documentation for correlation timeout
+
+** define what is the issue
+
+** create a step by step diagnosis and what needs to be done
+
+
+** working from 3:15pm
+
+** first update the guix bioinformatics and see if gn2 builds
+
+** test out tissue
+
+
+
+
+13/04/2022
+
+** look at guix shell (doesn't quite understand)
+
+** arun changes on my patch (learnt a lot)--> relook at the commit
+
+** start magit adoption ** loving it

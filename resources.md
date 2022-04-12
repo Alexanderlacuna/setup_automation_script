@@ -37,3 +37,18 @@ https://superuser.com/questions/332510/how-to-transfer-my-ssh-keys-to-another-ma
 ## data structures and algorithms
 
  - https://inst.eecs.berkeley.edu/~cs61b/sp20/
+
+
+
+
+## Emacs resources
+
+### themes
+
+- https://github.com/bbatsov/solarized-emacs
+
+### magit walkthrough
+
+- https://emacsair.me/2017/09/01/the-magical-git-interface/
+
+- https://emacsair.me/2017/09/01/magit-walk-through/
