@@ -32,3 +32,8 @@ https://superuser.com/questions/332510/how-to-transfer-my-ssh-keys-to-another-ma
 ## Mathematics
 
 - combinatory mathematics->https://www.britannica.com/science/combinatorics
+
+
+## data structures and algorithms
+
+ - https://inst.eecs.berkeley.edu/~cs61b/sp20/
