@@ -52,5 +52,4 @@ https://superuser.com/questions/332510/how-to-transfer-my-ssh-keys-to-another-ma
 - https://emacsair.me/2017/09/01/the-magical-git-interface/
 
 - https://emacsair.me/2017/09/01/magit-walk-through/
-
- - https://betterprogramming.pub/how-to-write-good-commit-messages-and-why-is-it-important-18ac406ce33a 
+ - https://betterprogramming.pub/how-to-write-good-commit-messages-and-why-is-it-important-18ac406ce33a
