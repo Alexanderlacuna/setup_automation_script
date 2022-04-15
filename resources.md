@@ -70,3 +70,8 @@ I've used `borg` before, restoring I got a list of folders I could browse for wh
 https://restic.net/
 
 https://github.com/bcpierce00/unison
+
+
+15/04/2022
+
+Is differential privacy somehow related to homomorphic encryption? If not, what happened to that?
