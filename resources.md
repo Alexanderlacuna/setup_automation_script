@@ -75,3 +75,11 @@ https://github.com/bcpierce00/unison
 15/04/2022
 
 Is differential privacy somehow related to homomorphic encryption? If not, what happened to that?
+
+
+
+
+
+19/04/2022
+
+https://rust-lang-nursery.github.io/rust-cookbook/science/mathematics/statistics.html
