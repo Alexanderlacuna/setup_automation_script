@@ -80,6 +80,20 @@ Is differential privacy somehow related to homomorphic encryption? If not, what 
 
 
 
-19/04/2022
+## Gneral
 
 https://rust-lang-nursery.github.io/rust-cookbook/science/mathematics/statistics.html
+
+https://docs.rs/GSL/0.4.25/rgsl/statistics/index.html
+
+https://www.reddit.com/r/rust/comments/5qv11u/what_is_the_best_statistics_crate/
+
+
+
+
+ - https://github.com/trending
+
+- https://github.com/jware-solutions/ggca#rust
+
+
+- https://github.com/jware-solutions/ggca/blob/main/src/correlation.rs
