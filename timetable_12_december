@@ -283,3 +283,9 @@ held up
 
 - work by time
 - doing exercises for guix-bioinformatics
+
+
+22/04/2022
+
+- implementation of correlation with rust
+   - parallel computations
