@@ -301,3 +301,12 @@ held up
 - mostly borrow from the ggca library
 
 - working from 10:00
+
+- implement the spearman and pearson with rust
+
+- implement pearson correlation
+    - then do it for computing p_val
+-  https://github.com/SurajGupta/r-source/blob/a28e609e72ed7c47f6ddfbb86c85279a0750f0b7/src/library/stats/R/cor.test.R#L21
+
+- pure scipy pearsonr replacement
+  - https://gist.github.com/xflr6/afb5bf740aa15a6c2a2c8f56cf768b80
