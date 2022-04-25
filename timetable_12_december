@@ -310,3 +310,29 @@ held up
 
 - pure scipy pearsonr replacement
   - https://gist.github.com/xflr6/afb5bf740aa15a6c2a2c8f56cf768b80
+
+- add more tests
+
+** steps taken**
+
+- implemented both pearson and spearman with rust
+   - computing p_vals from the above
+
+- add module only for correlations
+
+- add module for tests
+
+- add multiple tests for this
+
+- update gn issues
+
+
+- implementation for huge datasets
+        - how to read from huge datasets
+        - read in bytes lazy loading (copy from lib)
+	- benchmark
+
+ - filter invalid data missing values (outerscope)
+
+
+ - implementation of parallel computation
