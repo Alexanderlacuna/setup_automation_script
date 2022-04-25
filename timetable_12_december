@@ -336,3 +336,13 @@ held up
 
 
  - implementation of parallel computation
+
+
+
+26/05/2022
+
+- add more tests
+
+- implement way to read huge datasets
+
+   * add validators for this(e.g remove null values)
