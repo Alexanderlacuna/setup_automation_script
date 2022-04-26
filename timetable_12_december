@@ -346,3 +346,21 @@ held up
 - implement way to read huge datasets
 
    * add validators for this(e.g remove null values)
+
+
+- handle exception
+
+- //aim is to read the csv/text file then compute the correlation for each
+
+ - assertion of errors in rust
+
+- debugging file path in rust
+
+-- for later use :https://stackoverflow.com/questions/45882329/read-large-files-line-by-line-in-rust
+
+-- next step is arrange tests
+
+- fix issue of file path
+
+
+- modularizing codes
