@@ -383,3 +383,29 @@ held up
  - read and compute correlation for dataset(correlation)
 
 - dataset parsing(parser)
+
+
+** my report ***
+
+- implementation the unit type correlation
+- added the unittests
+
+- added dataset reader/streamer
+
+- modularization of the code
+
+**** what to work on ****
+
+* integration of streamer and computation
+
+* dataset-parser
+***
+
+** work from 11:00
+
+
+27/04/2022
+
+* fix for failing tests(not computing correctly)
+* dataset parser
+
