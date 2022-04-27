@@ -363,7 +363,7 @@ held up
 - fix issue of file path
 
 
-- modularizing codes
+2- modularizing codes
 
 - dealing with file path issues
 
@@ -376,3 +376,10 @@ held up
 -  build anaylzer
 
 - work on parser
+
+
+27/05/2022
+
+ - read and compute correlation for dataset(correlation)
+
+- dataset parsing(parser)
