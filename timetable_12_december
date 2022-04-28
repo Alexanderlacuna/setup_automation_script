@@ -410,3 +410,11 @@ held up
 * work on path issues for finding dataset files
 * fix for failing tests(not computing correctly)
 * dataset parser
+
+** dynammically set size of array
+
+** move file to integration testsxs
+
+** add delimeter for reading file
+
+** recall will change design file should be chunked
