@@ -432,3 +432,5 @@ held up
 30/4/2022
 
 * add benchmark
+
+** process the data rather than read file in multiple threadsg
