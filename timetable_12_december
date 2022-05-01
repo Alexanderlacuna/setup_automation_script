@@ -434,3 +434,7 @@ held up
 * add benchmark
 
 ** process the data rather than read file in multiple threadsg
+
+** creating a parser for nan values (trait_name and sample names)
+
+** create a line parser
