@@ -438,3 +438,20 @@ held up
 ** creating a parser for nan values (trait_name and sample names)
 
 ** create a line parser
+
+** make a plan for this
+
+   * reading of file and the actual correlation aspect
+   * file parser design
+
+
+2/5/2022
+
+* first design how the file will be
+
+
+3/5/2022
+
+- fix issue reported by arun
+- structure to just work and also filter for Nan values
+- make a compilable library
