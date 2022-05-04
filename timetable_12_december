@@ -455,3 +455,50 @@ held up
 - fix issue reported by arun
 - structure to just work and also filter for Nan values
 - make a compilable library
+
+
+** aim first create a parser
+   - what is contained in this parser ??
+
+    - works for pure values without nan's
+        - gets the sample name,and trait_name
+    - upgrade to find Nan's and do neccessary replacements
+
+
+** fast float parser
+** add more documentation
+  ** usage
+  ** testing
+   ** for example the speed 
+
+
+*** trying fast parse float - number of rows is 800000 19.03
+
+
+** extract sample_names ** first row
+
+//we want to have one pass where we remove duplicates
+from x_vals and y_vals and also parse to float
+//di
+
+//check on creating new object for each
+
+//https://blog.rust-lang.org/2021/02/26/const-generics-mvp-beta.html
+
+// add testcases
+   // unittests
+// update the documentation
+
+
+// memory usage not to per please fix
+
+
+//work on the method for now => next
+
+//add benchmark
+
+//https://stackoverflow.com/questions/55555538/what-is-the-correct-way-to-read-a-binary-file-in-chunks-of-a-fixed-size-and-stor
+
+//benchmark
+
+//working on adding benchmarks
