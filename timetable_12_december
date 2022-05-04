@@ -502,3 +502,11 @@ from x_vals and y_vals and also parse to float
 //benchmark
 
 //working on adding benchmarks
+
+=> performing in rust https://nnethercote.github.io/perf-book/benchmarking.html
+
+//dev depencies rust
+
+=> https://bheisler.github.io/criterion.rs/book/getting_started.html
+
+=> today target on writing good benchmarks

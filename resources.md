@@ -101,3 +101,7 @@ https://www.reddit.com/r/rust/comments/5qv11u/what_is_the_best_statistics_crate/
 - https://github.com/bheisler/criterion.rs
 
 - https://www.gnu.org/software/gsl/doc/html/statistics.html
+
+## data structures and algorithms
+
+https://binarysearch.com/problems
