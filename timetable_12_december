@@ -510,3 +510,48 @@ from x_vals and y_vals and also parse to float
 => https://bheisler.github.io/criterion.rs/book/getting_started.html
 
 => today target on writing good benchmarks
+
+// issue adding benchmarks
+
+
+//creating a mini parser
+
+//unittests
+
+//in the process of creating benckmarks/docs
+
+//s to provide a powerful and statistically rigorous tool for measuring the performance of code, preventing performance regressions and accurately measuring optimizations
+
+
+
+
+ ** Statistics-driven benchmarking library for Rust
+
+// optimization
+
+==> masking from deny
+
+==> recall masking using correlation
+
+=> mpcc full correlation
+
+=> from arun https://ownyourbits.com/2018/06/13/transparently-running-binaries-from-any-architecture-in-linux-with-qemu-and-binfmt_misc/
+
+=> check out the paper by pjotr
+==> https://github.com/wstrinz
+
+
+==> read the paper from
+
+
+==> threading with rust https://users.rust-lang.org/t/multithreading-what-are-some-effective-ways-to-accomplish-this-task-in-rust/20631/3
+
+==> criterion issue https://github.com/bheisler/criterion.rs/issues/322
+
+==> https://github.com/jadbox/rust_trie/blob/master/benches/benchmark.rs
+
+5/05/2022
+
+* write invoice
+
+* continue working on benchmark
