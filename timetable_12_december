@@ -555,3 +555,62 @@ from x_vals and y_vals and also parse to float
 * write invoice
 
 * continue working on benchmark
+
+** working from 21:00
+
+
+6/05/2022
+
+** invoice write
+
+** read the paper from pjotr
+
+
+
+//I have something that is working
+
+** text file and primary trait
+   - 
+
+** update the docs
+
+** optimization
+
+7/05/2022
+
+** add graph to show performance difference
+
+
+** todo : benchmark
+
+** filter sample names,trait_names
+
+Genenetwork development(See attached invoice for full description of Services)
+
+
+8/05/2022
+
+** benchmarks in rust
+
+9/05/2022
+
+
+
+*** first work on trait_names and samples nanmes
+** parse trait_names
+
+** build for library for python to call
+
+
+** error handling
+
+** also did benchmark
+
+** also check on memory
+
+** add test files to specific files
+
+=> https://pyo3.rs/main/index.html
+=> https://docs.rs/pyo3/0.14.1/pyo3/
+=> https://github.com/PyO3/maturin
+

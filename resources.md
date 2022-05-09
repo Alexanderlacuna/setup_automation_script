@@ -22,7 +22,11 @@
  - rust for rustaceans
 
  - idiomatic rust - github repo
-
+ 
+ - https://mattgathu.dev/2020/04/28/rust-reading-list.html
+ 
+ - https://mattgathu.dev/2020/04/28/rust-reading-list.html
+ 
 ## bash
 
 ### copyings keys
@@ -105,3 +109,13 @@ https://www.reddit.com/r/rust/comments/5qv11u/what_is_the_best_statistics_crate/
 ## data structures and algorithms
 
 https://binarysearch.com/problems
+
+### jgrt
+
+- https://github.com/jixiuf/vterm-toggle
+
+- https://you.com/code?fromSearchBar=true
+
+-- (testing rust)  https://mattgathu.dev/2018/01/16/rust-reading-list.html
+
+-- https://mattgathu.dev/2021/12/05/next-year-challenge.html
