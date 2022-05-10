@@ -614,3 +614,33 @@ Genenetwork development(See attached invoice for full description of Services)
 => https://docs.rs/pyo3/0.14.1/pyo3/
 => https://github.com/PyO3/maturin
 
+
+** work on benchmark rust(deals with speed)
+
+
+** working on getting sample names and trait_names
+
+** analyzing ggca during the night
+=>https://users.rust-lang.org/t/iterators-over-csv-files-with-iproduct/5194** doing optimizations
+
+
+** todo optimization  with iterators
+
+
+
+
+10/05/2022
+
+** include trait names
+
+** move tests and tests documents their own folder
+
+** filter/include sample names
+
+** filter top elements by p value
+
+** doing optimizations
+
+** implementing sorter
+
+** ban twitter till 10:00pm
