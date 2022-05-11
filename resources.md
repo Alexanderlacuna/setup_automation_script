@@ -119,3 +119,6 @@ https://binarysearch.com/problems
 -- (testing rust)  https://mattgathu.dev/2018/01/16/rust-reading-list.html
 
 -- https://mattgathu.dev/2021/12/05/next-year-challenge.html
+
+-- check this resources:http://jsil.org/
+--  https://github.com/kg/
