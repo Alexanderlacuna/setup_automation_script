@@ -1,5 +1,7 @@
 
 
+
+
 5/4/2022
 
 setting up things
@@ -662,3 +664,32 @@ Genenetwork development(See attached invoice for full description of Services)
 ** working from 14:30
 
 ** (todo) try org-mode
+
+
+
+
+12/05/2022
+
+** working on sorter
+
+** better error handling
+
+** code cleanup
+
+** code optimization
+
+=> check this out making benches:=>https://stackoverflow.com/questions/60916194/how-to-sort-a-vector-in-descending-order-in-rust
+
+** above not achieved :read rust for rustacean
+
+
+13/05/2022
+
+** solving issues guru:
+video player
+** break this into chunks
+
+
+14/05/2022
+
+* working on integrating correlation with gn2
