@@ -711,3 +711,5 @@ video player
 ** agreement is to use external processes rather than build it as a module
 
 **  continue on the implementation of sorter
+
+** first write text file reader and also parse the a json file containing ppath x vals and samples >>>
