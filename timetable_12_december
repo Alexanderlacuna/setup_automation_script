@@ -693,3 +693,21 @@ video player
 14/05/2022
 
 * working on integrating correlation with gn2
+
+
+16/05/2022
+
+
+**  py03 binder  for rust //including tools for creating native Python extension modules
+
+** working on a sorter
+
+** error handling
+
+** working on integrating correlation in gn2
+
+17/05/2022
+
+** agreement is to use external processes rather than build it as a module
+
+**  continue on the implementation of sorter
