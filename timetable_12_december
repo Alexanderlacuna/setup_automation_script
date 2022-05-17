@@ -713,3 +713,5 @@ video player
 **  continue on the implementation of sorter
 
 ** first write text file reader and also parse the a json file containing ppath x vals and samples >>>
+
+* expect json file parse the file for path
