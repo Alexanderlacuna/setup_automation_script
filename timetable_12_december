@@ -735,6 +735,7 @@ p
 3) working example with gn2/documentation
 4) implement parallel computation
 
+51) package in guix
 5) update resume
 
 
@@ -752,4 +753,10 @@ p
 ** add a method argument
 
 
-==> sorting huge dataset library
+==> sorting huge dataset library -https://github.com/10XGenomics/rust-shardio/blob/master/src/lib.rs
+==> code write results to a tmp file
+
+==> run the code in python and see
+
+
+==> look the code by fisher here:=>https://github.com/chfi/rust-qtlreaper/blob/master/src/regression.rs
