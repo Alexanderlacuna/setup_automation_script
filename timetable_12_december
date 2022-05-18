@@ -713,5 +713,43 @@ video player
 **  continue on the implementation of sorter
 
 ** first write text file reader and also parse the a json file containing ppath x vals and samples >>>
-
+p
 * expect json file parse the file for path
+
+* reading/how to parse json file
+
+** choose file format
+
+
+18/05/2022
+
+** aim for full time tasks
+
+
+** primarily working on the json decoder
+
+** what I need to achieve by monday ***
+
+1) make sure without parallel computation is working,trait_name and results,sorter
+2) test out the p value is correct
+3) working example with gn2/documentation
+4) implement parallel computation
+
+5) update resume
+
+
+** today's task make the json decoder work
+
+
+** now pass the file as args in rust
+
+** re  work on getting top n elements + sorting buffer
+
+** try to use the library
+
+** create analyzer page
+
+** add a method argument
+
+
+==> sorting huge dataset library
