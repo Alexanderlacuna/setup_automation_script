@@ -760,3 +760,36 @@ p
 
 
 ==> look the code by fisher here:=>https://github.com/chfi/rust-qtlreaper/blob/master/src/regression.rs
+
+** code organization for test files
+
+
+19/05/2022
+
+** working from 13:45
+
+
+** create an anaylzer/congregator/entry point ??
+** panic for files errors
+
+** return a link to the file location
+
+** modify the struct to have more json data
+
+
+(todo) should work on the paths
+
+
+** update readme
+
+** barrier getting top n elements/filtering adding the keynames
+
+
+-- firs work on getting key_names should probably be a variable???
+
+-- work on filtering top elements
+
+-- (todo) add optional arguments to perform certain tasks
+
+
+--> https://stackoverflow.com/questions/54701548/how-can-i-sort-an-iterator-without-putting-it-all-in-a-vector  (to sort an iterator)
