@@ -793,3 +793,19 @@ p
 
 
 --> https://stackoverflow.com/questions/54701548/how-can-i-sort-an-iterator-without-putting-it-all-in-a-vector  (to sort an iterator)
+
+
+--> invest in sorter
+
+
+20/05/2022
+
+main object: optimizing of the sorter
+
+** primary working on sorting huge datasets
+
+  -  looking at different implementations
+
+
+// try different examples --> working on external sorting
+
