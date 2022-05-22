@@ -809,3 +809,23 @@ main object: optimizing of the sorter
 
 // try different examples --> working on external sorting
 
+// writing a file line by line is inefficient ???
+
+=> working of extern sorter  rust
+
+// current implementation of my extern  sorter is slow
+
+//  check this for implementation of multithreading =>https://github.com/dapper91/ext-sort-rs
+
+-  writr to file instead of writing to vec
+
+- make cahnge //have something that works
+
+-  coderbyte is the email https://mail.google.com/mail/u/0/#search/coderbyte/FMfcgzGpFzsrsrRwQSCDpbRxLVTDlMxB
+
+
+
+
+22/05/2022
+
+ - working on sorter and writing to file
