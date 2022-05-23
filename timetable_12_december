@@ -829,3 +829,19 @@ main object: optimizing of the sorter
 22/05/2022
 
  - working on sorter and writing to file
+
+-  intercept results and create a buffer which writes on overflow
+
+- later look at what is adjustment p value
+
+
+
+
+23/05/2022
+
+** working on correlation rust integration to gn2
+
+** external sorter
+
+** update the docs
+
