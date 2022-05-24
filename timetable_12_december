@@ -845,3 +845,14 @@ main object: optimizing of the sorter
 
 ** update the docs
 
+working from 20:00 - > working on writing to file
+
+
+
+24/07/2022
+
+ ** continue working on sorter rust (external sorter)
+
+** if this work do the guix package then integrate with the python code
+
+=> look at this docs  on extern sorter:https://github.com/dapper91/ext-sort-rs
