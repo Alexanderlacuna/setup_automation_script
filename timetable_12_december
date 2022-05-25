@@ -869,4 +869,8 @@ working from 20:00 - > working on writing to file
 
 = > finishing on external sorter rust
 
-- working from 16:00
+- working from 17:32
+
+=> sorting huge dataset rust
+
+=> article on multiple processing - https://fisheyeview.fisheyefocus.com/2019/07/23/parallel-processing-of-large-files-using-rust/

@@ -116,11 +116,17 @@ https://binarysearch.com/problems
 
 - https://you.com/code?fromSearchBar=true
 
--- (testing rust)  https://mattgathu.dev/2018/01/16/rust-reading-list.html
+- (testing rust)  https://mattgathu.dev/2018/01/16/rust-reading-list.html
 
--- https://mattgathu.dev/2021/12/05/next-year-challenge.html
+- https://mattgathu.dev/2021/12/05/next-year-challenge.html
 
--- check this resources:http://jsil.org/
---  https://github.com/kg/
+- check this resources:http://jsil.org/
+-  https://github.com/kg/
 
--- https://stackoverflow.com/questions/60916194/how-to-sort-a-vector-in-descending-order-in-rust
+- https://stackoverflow.com/questions/60916194/how-to-sort-a-vector-in-descending-order-in-rust
+
+
+
+### parallel computation rust
+
+- https://fisheyeview.fisheyefocus.com/2019/07/23/parallel-processing-of-large-files-using-rust/
