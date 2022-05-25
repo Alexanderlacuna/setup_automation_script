@@ -841,7 +841,7 @@ main object: optimizing of the sorter
 
 ** working on correlation rust integration to gn2
 
-** external sorter
+v** external sorter
 
 ** update the docs
 
@@ -849,10 +849,24 @@ working from 20:00 - > working on writing to file
 
 
 
-24/07/2022
+24/05/2022
 
  ** continue working on sorter rust (external sorter)
 
 ** if this work do the guix package then integrate with the python code
 
 => look at this docs  on extern sorter:https://github.com/dapper91/ext-sort-rs
+
+=> https://github.com/jware-solutions/ggca/blob/main/src/analysis.rs#L240
+
+=> have smth working
+
+= > working on efficient sorter
+
+
+
+25/05/2022
+
+= > finishing on external sorter rust
+
+- working from 16:00
