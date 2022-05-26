@@ -903,3 +903,15 @@ working from 20:00 - > working on writing to file
 // steal time keep top what elements
 
 - nice article https://betterprogramming.pub/how-to-sort-a-20g-file-in-rust-12abfffbd92b
+
+- https://docs.rs/ext-sort/latest/ext_sort/  look at this
+
+- debug this
+
+- implement sortable trait
+
+- https://github.com/appaquet/extsort-rs/issues/5
+
+- implement serializiation for struct
+
+- check this out :https://github.com/dapper91/ext-sort-rs
