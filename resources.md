@@ -130,3 +130,9 @@ https://binarysearch.com/problems
 ### parallel computation rust
 
 - https://fisheyeview.fisheyefocus.com/2019/07/23/parallel-processing-of-large-files-using-rust/
+
+-  refactor how I read huge dataset
+
+- https://www.reddit.com/r/rust/comments/8833lh/performance_of_parsing_large_file_2gb/
+
+- csv files rust https://docs.rs/csv/1.0.0-beta.5/csv/tutorial/index.html

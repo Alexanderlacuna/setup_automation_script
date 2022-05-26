@@ -874,3 +874,32 @@ working from 20:00 - > working on writing to file
 => sorting huge dataset rust
 
 => article on multiple processing - https://fisheyeview.fisheyefocus.com/2019/07/23/parallel-processing-of-large-files-using-rust/
+
+
+- aim is to finish extern sorter by today 20:30
+
+
+
+26/05/2022
+
+ - added a workflow
+
+- continue working on external sorter
+
+ working from 15:00
+
+- ban twitter from 15:30
+
+// try out shardio library
+
+- extern sorter link https://github.com/appaquet/extsort-rs
+
+- looking at par sort rust
+
+-  can't find out my try out implementing my own
+
+- write to file or sort with
+
+// steal time keep top what elements
+
+- nice article https://betterprogramming.pub/how-to-sort-a-20g-file-in-rust-12abfffbd92b
