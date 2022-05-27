@@ -928,3 +928,105 @@ working from 20:00 - > working on writing to file
 //write test python code for this
 
 //guix packaging
+
+
+27/05/2022
+
+- primarily working on rust packaging
+
+- doing guix packaging for correlation rust
+
+- switch to approx crate
+
+- working on packaging rust gsl
+
+- disable tests
+
+
+
+(define-public GSL-sys
+  (package
+    (name "GSL-sys")
+    (version "3.0.0")
+    (source
+     (origin
+       (method url-fetch)
+       (uri (crate-uri "GSL-sys" version))
+       (file-name (string-append name "-" version ".tar.gz"))
+       (sha256
+        (base32 "17dx066l1pbjwp9syjkzqb6fiajyb4wc814zqdfrj807rh6nfxs5"))))
+    (build-system cargo-build-system)
+    (native-inputs
+     (list gsl))
+    (arguments
+     `(#:cargo-inputs
+       (("rust-libc" ,rust-libc-0.2)
+	("rust-pkg-config"  ,rust-pkg-config-0.3)
+	)
+     ))
+    (home-page "https://github.com/capnproto/capnproto-rust")
+    (synopsis "Cap'n Proto remote procedure call protocol implementation")
+    (description "This package provides an implementation of the Cap'n Proto
+remote procedure call protocol")
+    (license license:expat)))
+
+
+(define-public rust-gsl
+  (package
+    (name "rust-gsl")
+    (version "6.0.0")
+    (source
+     (origin
+       (method url-fetch)
+       (uri (crate-uri "GSL" version))
+       (file-name (string-append name "-" version ".tar.gz"))
+       (sha256
+        (base32 "1kpiivagrsk9ags7d4k2521jwix0lqgnd3i8ayj3dfniszvcmgn9"))))
+    (build-system cargo-build-system)
+    (native-inputs
+     (list gsl))
+    (arguments
+     `(#:cargo-inputs
+       (("GSL-sys" ,GSL-sys)
+	("paste"  ,rust-paste-1)
+	)
+     ))
+    (home-page "https://github.com/capnproto/capnproto-rust")
+    (synopsis "Cap'n Proto remote procedure call protocol implementation")
+    (description "This package provides an implementation of the Cap'n Proto
+remote procedure call protocol")
+    (license license:expat)))
+
+
+
+(define-public rust-correlation
+  (let ((commit "1490cbbafd0779be7325fcc60169d3446e40ad74")
+        (revision "1"))
+    (package
+      (name "rust-correlation")
+      (version "0.1.4")
+      (source
+        (origin
+          (method git-fetch)
+          (uri (git-reference
+                 (url "https://github.com/Alexanderlacuna/correlation_rust.git")
+                 (commit commit)))
+          (file-name (git-file-name name version))
+          (sha256
+           (base32
+            "1xiaj75qkp9idj5ddzn9wlbri3dsmfvgcqrsdid1ach0n2va2f0a"))))
+      (build-system cargo-build-system)
+      (arguments
+       `(#:cargo-inputs
+         (("rust-serde" ,rust-serde-1)
+	  ("rust-serde-json" ,rust-serde-json-1)
+	  ("GSL" ,rust-gsl)
+	  ("rust-assert-approx-eq"  ,rust-assert-approx-eq-1)
+          )
+	 #:cargo-development-inputs
+	 (("rust-criterion" ,rust-criterion-0.3))
+	 ))
+      (home-page "https://github.com/Alexanderlacuna/correlation_rust")
+      (synopsis "Reimplementation of genenetwork/correlation in Rust")
+      (description "Reimplementation of genenetwork/correlation in Rust")
+      (license #f))))
