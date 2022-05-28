@@ -971,10 +971,10 @@ remote procedure call protocol")
     (license license:expat)))
 
 
-(define-public rust-gsl
+(define-public rust-gsl-6
   (package
     (name "rust-gsl")
-    (version "6.0.0")
+    (version "6")
     (source
      (origin
        (method url-fetch)
@@ -1020,7 +1020,7 @@ remote procedure call protocol")
        `(#:cargo-inputs
          (("rust-serde" ,rust-serde-1)
 	  ("rust-serde-json" ,rust-serde-json-1)
-	  ("GSL" ,rust-gsl)
+	  ("GSL" ,rust-gsl-6)
 	  ("rust-assert-approx-eq"  ,rust-assert-approx-eq-1)
           )
 	 #:cargo-development-inputs
@@ -1030,3 +1030,37 @@ remote procedure call protocol")
       (synopsis "Reimplementation of genenetwork/correlation in Rust")
       (description "Reimplementation of genenetwork/correlation in Rust")
       (license #f))))
+
+
+8**found the isue with version
+- disable extsort
+
+
+
+** guix packaging correlation rust and the rust dependenies
+
+ - in terms of speed am 
+
+** external sorter  -> serialization of data
+
+crate exposes external sorting (i.e. on disk sorting) capability on arbitrarily sized iterator, even if the generated content of the iterator doesn't fit in memory. Once sorted, it returns a new sorted iterator.
+
+
+** data serialization
+
+** workflow systems -
+
+** tests
+
+
+** check on non sql db from arun
+
+** check pdb from bons
+
+
+28/5/2022
+
+
+- working on packaging correlation rust packages
+
+- working from  12:05
