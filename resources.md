@@ -26,6 +26,10 @@
  - https://mattgathu.dev/2020/04/28/rust-reading-list.html
  
  - https://mattgathu.dev/2020/04/28/rust-reading-list.html
+
+ - https://www.kirillvasiltsov.com/writing/
+
+ - https://t.co/XioXAXxtSE
  
 ## bash
 

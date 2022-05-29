@@ -1187,3 +1187,5 @@ remote procedure call protocol")
 - working on integrating rust-correlation
 
 - debugging gn2 (setup)
+
+- working on generating temp files
