@@ -1167,3 +1167,23 @@ remote procedure call protocol")
 
 
 ** working on producing executable for  rust-correlation
+
+
+** good newa able to solve the issue
+
+** working on writing to tmp files
+
+** aim to demo one pass computation
+
+// add options for ouput directory
+
+//open concurrent thread to fetch the results
+
+
+
+29/05/22
+
+
+- working on integrating rust-correlation
+
+- debugging gn2 (setup)
