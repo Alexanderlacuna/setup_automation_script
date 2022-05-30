@@ -1189,3 +1189,21 @@ remote procedure call protocol")
 - debugging gn2 (setup)
 
 - working on generating temp files
+
+
+30/05/22
+
+- update for today' standup
+
+  * was able to package rust-correlation,rust-gsl and gsl-sys
+  * able to call rust correlation from gn2
+ 
+ - today will work on generating tmp files python and return results
+
+ - modify structure to take output dir
+ - show initial results page in correlation
+
+ - take top elements
+
+ - (todo) working on correctly
+  
