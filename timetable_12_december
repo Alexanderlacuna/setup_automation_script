@@ -1242,4 +1242,11 @@ fred
 
 - adding tests for rust correlation module python
 
-- issue writing to files 
+- issue writing to files
+
+- todo:decorator to delete all files generated
+
+
+- remaining issue is parsing the data i.e from gn2
+
+- fix issues with variables
