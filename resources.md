@@ -90,12 +90,13 @@ Is differential privacy somehow related to homomorphic encryption? If not, what 
 
 ## Gneral
 
-https://rust-lang-nursery.github.io/rust-cookbook/science/mathematics/statistics.html
+- https://rust-lang-nursery.github.io/rust-cookbook/science/mathematics/statistics.html
 
-https://docs.rs/GSL/0.4.25/rgsl/statistics/index.html
+- https://docs.rs/GSL/0.4.25/rgsl/statistics/index.html
 
-https://www.reddit.com/r/rust/comments/5qv11u/what_is_the_best_statistics_crate/
+- https://www.reddit.com/r/rust/comments/5qv11u/what_is_the_best_statistics_crate/
 
+- https://tinypilotkvm.com/blog/build-a-kvm-over-ip-under-100
 
 
 
@@ -140,3 +141,5 @@ https://binarysearch.com/problems
 - https://www.reddit.com/r/rust/comments/8833lh/performance_of_parsing_large_file_2gb/
 
 - csv files rust https://docs.rs/csv/1.0.0-beta.5/csv/tutorial/index.html
+
+

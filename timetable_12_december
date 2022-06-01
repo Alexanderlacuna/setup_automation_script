@@ -1222,3 +1222,24 @@ remote procedure call protocol")
  - reply to emails ,u*work,time series
 
 - continue working tmp files
+
+- working from 8:00
+ - solve ths issue with creating tmp files today
+
+- anaylze correlation vs partial correlation list out the different to
+
+fred
+
+- issue:autogeneration tables/jinja 2 macros repetitive tasks
+
+
+
+1/6/22
+
+- working overnight on this
+
+- debugging issue of permission denied  error for files
+
+- adding tests for rust correlation module python
+
+- issue writing to files 
