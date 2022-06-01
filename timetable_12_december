@@ -1249,4 +1249,11 @@ fred
 
 - remaining issue is parsing the data i.e from gn2
 
-- fix issues with variables
+- fix issues with variables --> design issue api call or library
+
+- do you do the parsing with rust
+
+
+2/05/2022
+
+- how to call the gn2 code
