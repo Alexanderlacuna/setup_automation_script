@@ -37,7 +37,11 @@ git config --global user.name $username
 git config --global user.email $email
 
 
+
 git config --list
+
+
+git config --global credential.helper cache
 
 
 echo -n "Install brave browser"
