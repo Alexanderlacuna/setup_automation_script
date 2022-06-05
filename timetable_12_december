@@ -1284,6 +1284,14 @@ pass
 
 
 fix issue for variables
-2/05/2022
+5/05/2022
 
 - how to call the gn2 code
+
+6/05/2022
+
+- rebuilding the rust dependencies(achieved)
+
+- solve the issue of guix package path
+
+- working during the night
