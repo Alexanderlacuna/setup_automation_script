@@ -1253,7 +1253,6 @@ fred
 
 - do you do the parsing with rust
 
-
 2/06/2022
 
 - how to call the gn2 code
@@ -1285,3 +1284,6 @@ pass
 
 
 fix issue for variables
+2/05/2022
+
+- how to call the gn2 code
