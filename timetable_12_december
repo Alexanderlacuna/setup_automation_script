@@ -874,3 +874,414 @@ working from 20:00 - > working on writing to file
 => sorting huge dataset rust
 
 => article on multiple processing - https://fisheyeview.fisheyefocus.com/2019/07/23/parallel-processing-of-large-files-using-rust/
+
+
+- aim is to finish extern sorter by today 20:30
+
+
+
+26/05/2022
+
+ - added a workflow
+
+- continue working on external sorter
+
+ working from 15:00
+
+- ban twitter from 15:30
+
+// try out shardio library
+
+- extern sorter link https://github.com/appaquet/extsort-rs
+
+- looking at par sort rust
+
+-  can't find out my try out implementing my own
+
+- write to file or sort with
+
+// steal time keep top what elements
+
+- nice article https://betterprogramming.pub/how-to-sort-a-20g-file-in-rust-12abfffbd92b
+
+- https://docs.rs/ext-sort/latest/ext_sort/  look at this
+
+- debug this
+
+- implement sortable trait
+
+- https://github.com/appaquet/extsort-rs/issues/5
+
+- implement serializiation for struct
+
+- check this out :https://github.com/dapper91/ext-sort-rs
+
+//take a break on extern sorter
+
+//work on the python aspect of it
+
+
+//write results to file
+
+//try to run using python
+
+//write test python code for this
+
+//guix packaging
+
+
+27/05/2022
+
+- primarily working on rust packaging
+
+- doing guix packaging for correlation rust
+
+- switch to approx crate
+
+- working on packaging rust gsl
+
+- disable tests
+
+
+
+(define-public GSL-sys
+  (package
+    (name "GSL-sys")
+    (version "3.0.0")
+    (source
+     (origin
+       (method url-fetch)
+       (uri (crate-uri "GSL-sys" version))
+       (file-name (string-append name "-" version ".tar.gz"))
+       (sha256
+        (base32 "17dx066l1pbjwp9syjkzqb6fiajyb4wc814zqdfrj807rh6nfxs5"))))
+    (build-system cargo-build-system)
+    (native-inputs
+     (list gsl))
+    (arguments
+     `(#:cargo-inputs
+       (("rust-libc" ,rust-libc-0.2)
+	("rust-pkg-config"  ,rust-pkg-config-0.3)
+	)
+     ))
+    (home-page "https://github.com/capnproto/capnproto-rust")
+    (synopsis "Cap'n Proto remote procedure call protocol implementation")
+    (description "This package provides an implementation of the Cap'n Proto
+remote procedure call protocol")
+    (license license:expat)))
+
+
+(define-public rust-gsl-6
+  (package
+    (name "rust-gsl")
+    (version "6")
+    (source
+     (origin
+       (method url-fetch)
+       (uri (crate-uri "GSL" version))
+       (file-name (string-append name "-" version ".tar.gz"))
+       (sha256
+        (base32 "1kpiivagrsk9ags7d4k2521jwix0lqgnd3i8ayj3dfniszvcmgn9"))))
+    (build-system cargo-build-system)
+    (native-inputs
+     (list gsl))
+    (arguments
+     `(#:cargo-inputs
+       (("GSL-sys" ,GSL-sys)
+	("paste"  ,rust-paste-1)
+	)
+     ))
+    (home-page "https://github.com/capnproto/capnproto-rust")
+    (synopsis "Cap'n Proto remote procedure call protocol implementation")
+    (description "This package provides an implementation of the Cap'n Proto
+remote procedure call protocol")
+    (license license:expat)))
+
+
+
+(define-public rust-correlation
+  (let ((commit "1490cbbafd0779be7325fcc60169d3446e40ad74")
+        (revision "1"))
+    (package
+      (name "rust-correlation")
+      (version "0.1.4")
+      (source
+        (origin
+          (method git-fetch)
+          (uri (git-reference
+                 (url "https://github.com/Alexanderlacuna/correlation_rust.git")
+                 (commit commit)))
+          (file-name (git-file-name name version))
+          (sha256
+           (base32
+            "1xiaj75qkp9idj5ddzn9wlbri3dsmfvgcqrsdid1ach0n2va2f0a"))))
+      (build-system cargo-build-system)
+      (arguments
+       `(#:cargo-inputs
+         (("rust-serde" ,rust-serde-1)
+	  ("rust-serde-json" ,rust-serde-json-1)
+	  ("GSL" ,rust-gsl-6)
+	  ("rust-assert-approx-eq"  ,rust-assert-approx-eq-1)
+          )
+	 #:cargo-development-inputs
+	 (("rust-criterion" ,rust-criterion-0.3))
+	 ))
+      (home-page "https://github.com/Alexanderlacuna/correlation_rust")
+      (synopsis "Reimplementation of genenetwork/correlation in Rust")
+      (description "Reimplementation of genenetwork/correlation in Rust")
+      (license #f))))
+
+
+8**found the isue with version
+- disable extsort
+
+
+
+** guix packaging correlation rust and the rust dependenies
+
+ - in terms of speed am 
+
+** external sorter  -> serialization of data
+
+crate exposes external sorting (i.e. on disk sorting) capability on arbitrarily sized iterator, even if the generated content of the iterator doesn't fit in memory. Once sorted, it returns a new sorted iterator.
+
+
+** data serialization
+
+** workflow systems -
+
+** tests
+
+
+** check on non sql db from arun
+
+** check pdb from bons
+
+
+28/5/2022
+
+
+- working on packaging correlation rust packages
+
+- working from  12:05
+
+ - error occurring https://unix.stackexchange.com/questions/506866/what-should-i-install-to-correct-ld-cannot-find-lgbm-and-linput-so-that-i-c#:~:text=A%20message%20such%20as%20%2Fusr,the%20lib%20prefix%20and%20the%20.
+
+
+
+(define-public GSL-sys
+  (package
+    (name "GSL-sys")
+    (version "3.0.0")
+    (source
+     (origin
+       (method url-fetch)
+       (uri (crate-uri "GSL-sys" version))
+       (file-name (string-append name "-" version ".tar.gz"))
+       (sha256
+        (base32 "17dx066l1pbjwp9syjkzqb6fiajyb4wc814zqdfrj807rh6nfxs5"))))
+    (build-system cargo-build-system)
+    (native-inputs
+     (list gsl))
+    (arguments
+     `(#:cargo-inputs
+       (("rust-libc" ,rust-libc-0.2)
+	("rust-pkg-config"  ,rust-pkg-config-0.3)
+	)
+     ))
+    (home-page "https://github.com/capnproto/capnproto-rust")
+    (synopsis "Cap'n Proto remote procedure call protocol implementation")
+    (description "This package provides an implementation of the Cap'n Proto
+remote procedure call protocol")
+    (license license:expat)))
+
+
+#:use-module (gnu packages maths)
+
+
+(define-public rust-gsl
+  (package
+    (name "rust-gsl")
+    (version "6.0.0")
+    (source
+     (origin
+       (method url-fetch)
+       (uri (crate-uri "GSL" version))
+       (file-name (string-append name "-" version ".tar.gz"))
+       (sha256
+        (base32 "1kpiivagrsk9ags7d4k2521jwix0lqgnd3i8ayj3dfniszvcmgn9"))))
+    (build-system cargo-build-system)
+    (native-inputs
+     (list gsl))
+    (arguments
+     `(#:cargo-inputs
+       (("GSL-sys" ,GSL-sys)
+	("paste"  ,rust-paste-1)
+	)
+     ))
+    (home-page "https://github.com/capnproto/capnproto-rust")
+    (synopsis "Cap'n Proto remote procedure call protocol implementation")
+    (description "This package provides an implementation of the Cap'n Proto
+remote procedure call protocol")
+    (license license:expat)))
+
+
+
+(define-public rust-correlation
+  (let ((commit "fa2af92aff04d2b6c9ac6e8d4f7d5e1f150b4070")
+	(revision "0")
+        )
+    (package
+      (name "rust-correlation")
+      (version "0.1.0")
+      (source
+        (origin
+          (method git-fetch)
+          (uri (git-reference
+                 (url "https://github.com/Alexanderlacuna/correlation_rust.git")
+                 (commit commit)))
+          (file-name (git-file-name name version))
+          (sha256
+           (base32
+            "162d7345hx95i7a8r04pciy4bizsjp09d7n1x06cww8hq1q92ax9"))))
+      (build-system cargo-build-system)
+     (native-inputs
+      (list gsl))
+      (arguments
+       `(#:tests? #false   ;test files required
+	 #:cargo-inputs
+         (("rust-serde" ,rust-serde-1)
+	  ("rust-serde-json" ,rust-serde-json-1)
+	  ("GSL" ,rust-gsl)
+	  ("rust-assert-approx-eq"  ,rust-assert-approx-eq-1)
+          )
+	 #:cargo-development-inputs
+	 (("rust-criterion" ,rust-criterion-0.3))
+	 ))
+      (home-page "https://github.com/Alexanderlacuna/correlation_rust")
+      (synopsis "Reimplementation of genenetwork/correlation in Rust")
+      (description "Reimplementation of genenetwork/correlation in Rust")
+      (license #f))))
+
+
+
+
+** working on producing executable for  rust-correlation
+
+
+** good newa able to solve the issue
+
+** working on writing to tmp files
+
+** aim to demo one pass computation
+
+// add options for ouput directory
+
+//open concurrent thread to fetch the results
+
+
+
+29/05/22
+
+
+- working on integrating rust-correlation
+
+- debugging gn2 (setup)
+
+- working on generating temp files
+
+
+30/05/22
+
+- update for today' standup
+
+  * was able to package rust-correlation,rust-gsl and gsl-sys
+  * able to call rust correlation from gn2
+ 
+ - today will work on generating tmp files python and return results
+
+ - modify structure to take output dir
+ - show initial results page in correlation
+
+ - take top elements
+
+ - (todo) working on correctly
+
+
+- look at random rust stuff
+
+- working from  15:30
+
+- debugging issue with creating files
+
+- solving issues with file errors
+
+
+31/05/2022
+
+ - reply to emails ,u*work,time series
+
+- continue working tmp files
+
+- working from 8:00
+ - solve ths issue with creating tmp files today
+
+- anaylze correlation vs partial correlation list out the different to
+
+fred
+
+- issue:autogeneration tables/jinja 2 macros repetitive tasks
+
+
+
+1/6/22
+
+- working overnight on this
+
+- debugging issue of permission denied  error for files
+
+- adding tests for rust correlation module python
+
+- issue writing to files
+
+- todo:decorator to delete all files generated
+
+
+- remaining issue is parsing the data i.e from gn2
+
+- fix issues with variables --> design issue api call or library
+
+- do you do the parsing with rust
+
+
+2/06/2022
+
+- how to call the gn2 code
+
+
+- chill till 15:00 while backup restores
+
+- site blocker
+
+- add blocker for certain times
+
+
+
+- gwriting invoice during the  evening
+
+
+3/06/2022
+
+- friday invoice
+
+
+
+4/06/2022
+
+pass
+
+
+5/06/2022
+
+
+fix issue for variables
