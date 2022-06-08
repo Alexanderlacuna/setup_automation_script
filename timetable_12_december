@@ -1420,6 +1420,16 @@ remote procedure call protocol")
 
 
 ** proposal  submitted
+** reading random things in rust
 
+** resolve path issues
 
+** rethink issue about paths -api or library
 
+9/06/22
+
+** try gn2 profile first
+
+** first run gn2
+
+** fix this bug
