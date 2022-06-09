@@ -1433,3 +1433,25 @@ remote procedure call protocol")
 ** first run gn2
 
 ** fix this bug
+
+** today was able to setup things back to normancy
+
+
+**   working on rust can't solve the error at the moment
+
+** debugging on the error data classes error
+
+** check on what to do next
+
+a) how should we accept the data //raw data or finished product just to
+compute
+
+- does any of the decision affect the final output(timing)
+
+- p val correctness
+
+- top n elements entry point
+
+- extern sorter didn't complete
+
+- final output json or txt file
