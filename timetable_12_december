@@ -1446,12 +1446,33 @@ remote procedure call protocol")
 a) how should we accept the data //raw data or finished product just to
 compute
 
+** thinking about things to accomplish to finalize on rust
+
 - does any of the decision affect the final output(timing)
 
 - p val correctness
 
 - top n elements entry point
 
-- extern sorter didn't complete
+- extern sorter didn't complete(incomplete)
 
 - final output json or txt file
+
+- String is an example for collection
+
+** start with parsing the initial input
+
+a) we get sample files from the browser
+
+** first think how we deliver the file
+** either raw or processed
+
+** relationship btw sample and correlation check now (ordering)
+
+
+** ordered samples for each missing values to represented with none
+
+** first understand the creation of dataset and relationship of trait samples to dataset samples
+
+
+todo : take a course on restful api's

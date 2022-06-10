@@ -147,3 +147,6 @@ https://binarysearch.com/problems
 - csv files rust https://docs.rs/csv/1.0.0-beta.5/csv/tutorial/index.html
 
 
+### databases
+
+- https://www.symas.com/lmdb
