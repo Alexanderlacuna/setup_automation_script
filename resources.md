@@ -13,6 +13,8 @@
 
    -  effective python
 
+   - pdb python from bons
+
 
 
 ## rust
