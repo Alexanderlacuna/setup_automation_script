@@ -1524,3 +1524,13 @@ todo : take a course on restful api's
 ** update gem thread
 
 * dataclasses module compatibility issue
+
+** narrowing down to flask to werkzeug
+
+
+** format cargo code
+
+** add a graph comparision to python  t(plot the data) write now
+
+
+** now primarily focusing on getting data from gn2 to rust correlation
