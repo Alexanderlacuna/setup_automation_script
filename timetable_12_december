@@ -1508,3 +1508,19 @@ todo : take a course on restful api's
 - issue for guix httpx
 - debugging guix
 - currrent error classvar
+- update gem text
+
+- working from 8:15
+
+* solve typing issue classvar
+
+* check on the correctness of p value compare with python and r
+   * it is a two tailed p value
+
+** check with scipy stats
+
+** two tailed p_val
+
+** update gem thread
+
+* dataclasses module compatibility issue
