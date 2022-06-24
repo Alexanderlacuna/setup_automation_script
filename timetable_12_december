@@ -1,11 +1,11 @@
-
+v
 
 
 
 5/4/2022
 
 setting up things
-
+x
 
 
 6/4/2022
@@ -1334,70 +1334,6 @@ remote procedure call protocol")
     (license license:expat)))
 
 
-(define-public rust-gsl-6
-  (package
-    (name "rust-gsl")
-    (version "6.0.0")
-    (source
-     (origin
-       (method url-fetch)
-       (uri (crate-uri "GSL" version))
-       (file-name (string-append name "-" version ".tar.gz"))
-       (sha256
-        (base32 "1kpiivagrsk9ags7d4k2521jwix0lqgnd3i8ayj3dfniszvcmgn9"))))
-    (build-system cargo-build-system)
-    (native-inputs
-     (list gsl))
-    (arguments
-     `(#:cargo-inputs
-       (("GSL-sys" ,GSL-sys)
-	("paste"  ,rust-paste-1)
-	)
-     ))
-    (home-page "https://github.com/capnproto/capnproto-rust")
-    (synopsis "Cap'n Proto remote procedure call protocol implementation")
-    (description "This package provides an implementation of the Cap'n Proto
-remote procedure call protocol")
-    (license license:expat)))
-
-
-
-(define-public rust-correlation
-  (let ((commit "fa2af92aff04d2b6c9ac6e8d4f7d5e1f150b4070")
-        (revision "0"))
-    (package
-      (name "rust-correlation")
-      (version "0.1.4")
-      (source
-        (origin
-          (method git-fetch)
-          (uri (git-reference
-                 (url "https://github.com/Alexanderlacuna/correlation_rust.git")
-                 (commit commit)))
-          (file-name (git-file-name name version))
-          (sha256
-           (base32
-            "162d7345hx95i7a8r04pciy4bizsjp09d7n1x06cww8hq1q92ax9"))))
-      (build-system cargo-build-system)
-      (native-inputs
-       (list gsl))
-      (arguments
-       `(#:tests? #false 
-	 #:cargo-inputs
-         (("rust-serde" ,rust-serde-1)
-	  ("rust-serde-json" ,rust-serde-json-1)
-	  ("GSL" ,rust-gsl-6)
-	  ("rust-assert-approx-eq"  ,rust-assert-approx-eq-1)
-          )
-	 #:cargo-development-inputs
-	 (("rust-criterion" ,rust-criterion-0.3))
-	 ))
-      (home-page "https://github.com/Alexanderlacuna/correlation_rust")
-      (synopsis "Reimplementation of genenetwork/correlation in Rust")
-      (description "Reimplementation of genenetwork/correlation in Rust")
-      (license #f))))
-
-
  - do initial setup
 
 
@@ -1553,3 +1489,44 @@ todo : take a course on restful api's
 
 ( * classvar in typing
 * PIL image ->  file too short
+
+
+
+20/06/22
+
+* found bug in penguin
+
+21/06/22
+
+*
+
+22/06/22
+
+* make bon's changes
+
+23/06/22
+
+* guix and working on the executable
+
+* connect gn2 to gn3 operations
+
+* return test compute button
+
+
+24/06/22
+
+
+
+** test template
+** changes to my rust correlation to take consideration of the sample's
+** have had to change to design to using api's
+
+** cleaning up my patches
+
+**  pr got approved
+
+** rmdb as cache
+
+** meta refresh from fred by QC app
+
+** today whatsapp:create a customasized version of ubuntu

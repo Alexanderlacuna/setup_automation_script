@@ -51,9 +51,22 @@ sudo snap install brave
 
 
 
+# get the ubuntu version
+
 echo -n "removing firefox"
 
-sudo apt-get --purge autoremove firefox
-sudo rm -Rf /etc/firefox/
+if [ "$(lsb_release -sr)"== "20.04" ]
+then
+   echo -n "removing firefox"
 
-sudo rm -Rf /usr/lib/firefox*
+   sudo apt-get --purge autoremove firefox
+   sudo rm -Rf /etc/firefox/
+
+   sudo rm -Rf /usr/lib/firefox*
+
+else
+    sudo snap remove firefox
+    rm -rf ~/Downloads/firefox.tmp/
+    
+    
+fi 
