@@ -1,7 +1,9 @@
 
 #!/bin/bash
 
+# do a fresh intall of rust
 
+rustup self uninstall
 
 sudo apt update 
 
