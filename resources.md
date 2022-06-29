@@ -152,3 +152,7 @@ https://binarysearch.com/problems
 ### databases
 
 - https://www.symas.com/lmdb
+
+## arun
+
+-  xapian search  -- speeds things up
