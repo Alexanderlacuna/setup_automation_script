@@ -1561,3 +1561,30 @@ todo : take a course on restful api's
 30/06/22
 
 * working on api's
+
+1/7/22
+** working on creating the correlation api
+
+** on creating the template what if we have focus on showing on using this
+as lib
+
+   ** what we need
+   
+      ** the data to be the right format 
+
+** breakdown
+   * borrow a lot from fred's though do the db work in gn2
+   * I need the sample data ordered by the trait
+   * the trait data is easy to get
+   * other parameters include method to be used
+
+
+
+2/7/22
+
+** working on integration
+
+
+3/7/22
+
+** check on vim tutor
