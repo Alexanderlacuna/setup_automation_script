@@ -1594,4 +1594,24 @@ as lib
 ** todos'
 * attend lectures
 * write invoice
+
 * aim to finish on the integration part
+
+
+** working on dataset parsing
+
+** dont remove code that is already working from nowxs
+
+
+
+
+6/7/22
+
+
+** parsing the datasets
+
+** code to actually compute top results
+
+*** PARSING THE DATASET TO BE OF A CERTAIN FORMAT TO FIT
+*** AFTER THE COMPUTATION THE TOP N RESULTS computation of both other
+if type == probeset write to files
