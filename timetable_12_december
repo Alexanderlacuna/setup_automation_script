@@ -1599,7 +1599,7 @@ as lib
 
 
 
-30/6/22
+6/7/22
 
 
 - rust code integration
@@ -1607,3 +1607,9 @@ as lib
    - dataset parsing for sample and tissue
 
 - refactor code to compute n results
+
+
+
+6/7/22
+
+* deliver parsing on sample data
