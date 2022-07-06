@@ -1,4 +1,3 @@
-v
 
 
 
@@ -1562,7 +1561,7 @@ todo : take a course on restful api's
 
 * working on api's
 
-1/7/22
+25/////////1//22
 ** working on creating the correlation api
 
 ** on creating the template what if we have focus on showing on using this
@@ -1580,38 +1579,31 @@ as lib
 
 
 
-2/7/22
+27/6/22
 
-** working on integration
-
-
-3/7/22
-
-** check on vim tutor
-
-4/7/22
-
-** todos'
-* attend lectures
-* write invoice
-
-* aim to finish on the integration part
+- working on integration for rust correlation
 
 
-** working on dataset parsing
+28/6/22
 
-** dont remove code that is already working from nowxs
+- check on vim tutor
+
+29/6/22
+
+
+
+- rust code integration
+   - working on dataset parsing
+    - reuse of working code fn
 
 
 
 
-6/7/22
+30/6/22
 
 
-** parsing the datasets
+- rust code integration
 
-** code to actually compute top results
+   - dataset parsing for sample and tissue
 
-*** PARSING THE DATASET TO BE OF A CERTAIN FORMAT TO FIT
-*** AFTER THE COMPUTATION THE TOP N RESULTS computation of both other
-if type == probeset write to files
+- refactor code to compute n results
