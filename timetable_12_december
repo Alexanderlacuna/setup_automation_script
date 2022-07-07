@@ -1592,7 +1592,7 @@ as lib
 
 
 
-- rust code integration
+vvvvvvvvv- rust code integration
    - working on dataset parsing
     - reuse of working code fn
 
@@ -1613,3 +1613,32 @@ as lib
 6/7/22
 
 * deliver parsing on sample data
+
+* take a break till 7:30
+
+- essaypro
+
+- coursehero
+
+- look for accounts 
+
+
+
+7/7/22
+
+- tissue,lit
+- top n elements
+- update issue tracker
+
+- acl access control list
+** racket
+
+** scip (forward -> preface) -->message passing ->continuation -> intepretet
+
+** principle of software design
+** pdb -> l lllocals pp locals() globals()
+
+** alacritty
+** profiling requiest
+
+** timeout for pdb
