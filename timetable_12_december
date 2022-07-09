@@ -1668,3 +1668,14 @@ check on sample_type to filter the data
 
 
 ** issue with dataset vals
+
+
+** lit correlation  what do we do??
+
+** how can we do a fetch all for lit correlation
+
+
+
+9/7/22
+
+* working on integration of rust correlation
