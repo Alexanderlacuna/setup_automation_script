@@ -1700,3 +1700,9 @@ check on sample_type to filter the data
  -  listStore()
  -  fillIconView()
 -  getMetadataDictionary()
+
+** writing tests on this
+
+** adding pytest and pip
+
+=?

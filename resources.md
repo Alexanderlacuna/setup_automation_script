@@ -68,6 +68,9 @@ https://superuser.com/questions/332510/how-to-transfer-my-ssh-keys-to-another-ma
  - https://betterprogramming.pub/how-to-write-good-commit-messages-and-why-is-it-important-18ac406ce33a
 
 
+### sending emails via emacs
+
+- https://www.maketecheasier.com/use-email-within-emacs/
 
 ## Linux
 
