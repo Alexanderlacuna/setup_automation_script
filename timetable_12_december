@@ -1679,3 +1679,24 @@ check on sample_type to filter the data
 9/7/22
 
 * working on integration of rust correlation
+
+** reshaping my data
+
+
+** UCL and arun
+
+** hormomophic encryption
+
+
+** busy from 11
+
+
+
+11/7/22
+
+** add unittests to the 5 functions
+ -  extractData()
+ - populatListStore()
+ -  listStore()
+ -  fillIconView()
+-  getMetadataDictionary()
