@@ -1705,4 +1705,33 @@ check on sample_type to filter the data
 
 ** adding pytest and pip
 
-=?
+
+
+12/7/22
+
+** working from 11:03 from tests
+** mark theme as unittests see the docs:https://docs.pytest.org/en/stable/how-to/mark.html
+
+** sloving module import error
+
+** mark the integration tests and pytest function
+
+
+** search for event
+
+=>  article on mocking https://blogs.sap.com/2022/02/16/how-to-write-independent-unit-test-with-pytest-and-mock-techniques/
+
+
+** done with on created
+
+17:34 ->18:30 get metadata dictionary add more tests
+
+
+
+13/07/22
+
+** readd test button for now
+
+** working on lit correlation
+
+** finish working on merge results
