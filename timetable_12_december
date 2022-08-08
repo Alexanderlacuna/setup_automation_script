@@ -1751,3 +1751,124 @@ check on sample_type to filter the data
 ** first try org mode
 
 ** playing around with org mode
+
+
+22/7/2022
+
+* submitted patches
+
+* pushed enhanncements 
+
+
+
+
+
+28/7/22
+
+
+* working on genenetwork
+
+  * TODO merge correlation
+  * n top from rust
+
+  * more processing to rust code
+
+* rather than processing after db send raw data
+
+* compare to gn1
+
+* change of data structure from list to dict then we can convert if later
+
+* communication-> own your work
+
+  
+
+* more to work// ? more quality work
+
+ -> quality over quantity
+ 
+** can't something off 
+
+* communication
+
+
+
+- > time =
+
+- >lmdb
+
+
+8/08/2022
+
+
+** first day of work
+
+** fix issues raised by fred
+
+** working on fixing the tests
+
+** update gn thread
+
+** plans for today finish on the lit correlation
+
+** plan myself
+
+** fix for test  gn2 which is :::TypeError: get_export_metadata() takes 1 positional argument but 2 were given
+
+
+
+
+9/8/2022
+
+* plan for the day
+
+* finish on lit correlation
+
+* merge correlation
+
+* ask fred to look at the db part plus bons lmdb ask on the progress
+
+* check on queries written by fred'
+
+* fred to lead on correlation -> to give directions
+
+** what can be done correlation towards the goal -:
+
+   - on the rust part do a bit of optimization
+   
+   - make sure the data is of the right format
+
+   -  json results
+
+   -  feed the data directly with rust
+
+* else on the gn2-gn3 part where majority of things happen
+
+   - should we move everything to gn3?
+
+   -  so many data checking and parsing from db send the data directly to computation
+
+
+** get better at rust and python learn from others ;arun;bons;fred
+
+** books I need to read;; effective python,rust for rustaceans;;rust books
+
+
+** get better at rust techniques
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+

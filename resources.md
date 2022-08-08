@@ -159,3 +159,8 @@ https://binarysearch.com/problems
 ## arun
 
 -  xapian search  -- speeds things up
+
+- https://sqlserverguides.com/sub-process-usr-bin-dpkg-returned-an-error-code-1/#:~:text=The%20%E2%80%9Csub%2Dprocess%20%2Fusr,process%20or%20a%20corrupted%20database.
+
+
+- xapian by arun
