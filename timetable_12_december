@@ -1755,7 +1755,7 @@ check on sample_type to filter the data
 
 22/7/2022
 
-* submitted patches
+* submitted patches  done in july
 
 * pushed enhanncements 
 
@@ -1856,6 +1856,20 @@ check on sample_type to filter the data
 
 ** get better at rust techniques
 
+** should we do the serialization using  in rust
+
+
+** plan for blogging website
+
+** plan for site x
+
+
+** designing this website for personal blogs
+
+** aggregor for list
+
+** get a hosting website
+
 
 
 
@@ -1872,3 +1886,21 @@ check on sample_type to filter the data
 
 
 
+** flask cli
+
+** wotkirking with friend on the correlation from 11:00 -1:00
+
+
+** rebase
+
+** work on merge results by fred
+
+** should only focus on writing for top n
+** start working on the top n results
+
+
+10/8/22
+
+** just fixing rust things
+
+** fix the x_vals parsing coz json already does it

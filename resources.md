@@ -164,3 +164,13 @@ https://binarysearch.com/problems
 
 
 - xapian by arun
+
+
+
+## random
+
+https://kharioki.com/
+
+
+
+** first make a run for correlation
