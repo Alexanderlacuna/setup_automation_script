@@ -1904,3 +1904,37 @@ check on sample_type to filter the data
 ** just fixing rust things
 
 ** fix the x_vals parsing coz json already does it
+
+** reworking on compute top n tissue and lit results
+
+
+
+
+** todo update tests
+
+
+** work on top sample correlation
+
+** look at the speed for rust code
+
+** implement  sample for top n
+
+** trying to implement sample for top correlation
+
+** tissue correlation failing check from fred
+
+
+//compute top n we need to fetch top results then
+
+for traits get the results
+
+// get file name works
+
+//ways to fetch traits in bulk
+
+//working on the queries
+
+14/08/22
+
+** check on queries for top sample correlation
+
