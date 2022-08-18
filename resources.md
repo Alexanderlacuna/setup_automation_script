@@ -165,6 +165,8 @@ https://binarysearch.com/problems
 
 - xapian by arun
 
+- https://handmade.network/blog/p/8438-torch_passing%252C_part_2#26420
+
 
 
 ## random

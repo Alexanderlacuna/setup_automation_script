@@ -1938,3 +1938,68 @@ for traits get the results
 
 ** check on queries for top sample correlation
 
+
+//combine the three correlations
+//move function to new file
+
+//look for that line in the rust code
+
+
+
+16/8/22
+
+* improve the code on top n results
+
+* move queries top dataset
+
+* merge the three correlation
+
+* move the results to a given function
+
+** break the functions to samller cunks
+
+** the only thing failing is for lit
+
+**  working on bunch queries for data use freds data
+   ** check trait info function in gn3 by fred
+
+
+** start experimenting on thre freds query
+
+** see gn1 code for this
+
+** looking at gn1 code
+
+** start checking on processing code
+
+** needs to analyze the query for traits creation we could draw a lot from that
+
+** try to perform join
+
+** continue working on query tomorrow
+
+
+
+17/08/2022
+
+
+** replyin ggon emacs
+
+** update the gemtext
+
+** working on query
+   ** look  at issue of escaping queries
+
+
+** test my small query and see how long it takes
+
+
+18/8/22
+
+* working on the query for trait metdata
+
+* show a proof a concept for this
+
+* update gem text as said by bons
+
+* joins vs inner joins
