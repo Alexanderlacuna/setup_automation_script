@@ -176,3 +176,8 @@ https://kharioki.com/
 
 
 ** first make a run for correlation
+
+## fred
+https://www.internalpointers.com/
+
+## begin git bisectx
