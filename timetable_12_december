@@ -14,7 +14,6 @@ see registrar
 set up machine
 
 playing around with bashscript
-
 write my own script
 
 7/4/2022
@@ -29,9 +28,7 @@ issue: have issue rebuilding genetwork
 
 setting up my machine(todo:fully automate the process)
 
-look at tissue(not)
-
-look at issue tracker update issues also pick up a task 
+look at tissue(not look at issue tracker update issues also pick up a task 
 update bons via email on what am doing 
 
 
@@ -425,7 +422,6 @@ held up
 ** add delimeter
 
 **  send fix for gn issues
-
 
 ** add dataset parser
 
@@ -1702,7 +1698,7 @@ check on sample_type to filter the data
 -  getMetadataDictionary()
 
 ** writing tests on this
-
+vv
 ** adding pytest and pip
 
 
@@ -2021,6 +2017,13 @@ for traits get the results
 
 
 
-19/08/2021
+19/08/2022
 
 ** git bisect what is it
+
+
+
+20/8/22
+
+
+ * docker check promethus

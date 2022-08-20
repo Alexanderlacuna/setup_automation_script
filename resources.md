@@ -181,3 +181,8 @@ https://kharioki.com/
 https://www.internalpointers.com/
 
 ## begin git bisectx
+
+
+## others devto
+
+https://dev.to/xnuinside/integration-tests-for-bunch-of-services-with-pytest-docker-compose-j5ixs
