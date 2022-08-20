@@ -14,6 +14,7 @@
    -  effective python
 
    - pdb python from bons
+   - https://dev.to/cheukting_ho/python-zero-to-hero-ep-20-python-functional-programming-2cfj
 
 
 
@@ -186,3 +187,13 @@ https://www.internalpointers.com/
 ## others devto
 
 https://dev.to/xnuinside/integration-tests-for-bunch-of-services-with-pytest-docker-compose-j5ixs
+
+https://linuxhint.com/monitor-python-applications-prometheus/
+
+
+todo:
+ - Set Theory
+ -  Group Theory
+ - Category theory
+ - lambda calculas
+ - functional mathematics
