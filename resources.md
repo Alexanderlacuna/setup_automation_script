@@ -36,6 +36,8 @@
 
  - https://t.co/XioXAXxtSE
 
+ -  https://github.com/TheAlgorithms/Rust
+
  
 ## bash
 
