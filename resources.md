@@ -201,3 +201,11 @@ todo:
  - functional mathematics
 
 - https://realpython.com/courses/writing-idiomatic-python/
+
+
+## git resources
+
+### everything you need to know about using git
+
+ - https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History
+ - https://thoughtbot.com/blog/git-interactive-rebase-squash-amend-rewriting-history
