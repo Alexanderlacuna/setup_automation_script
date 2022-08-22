@@ -2070,3 +2070,9 @@ Tip #1: Use git config --global pull.rebase true to avoid typing the --rebase fl
 ** avoid creating variables
 ** https://github.com/TheAlgorithms/Rust
 ** git branch clean with https://fle.github.io/git-tip-keep-your-branch-clean-with-fixup-and-autosquash.html
+
+** filling timetable with fixup and rebase 
+
+
+
+
