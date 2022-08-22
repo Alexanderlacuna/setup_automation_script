@@ -2049,6 +2049,24 @@ rastifying rus https://www.linkedin.com/pulse/rasterize-polygons-geopandas
 
 * https://www.reddit.com/r/CloneHero/comments/egdlf5/help_understanding_timestamps_in_chart_files/
 
+* https://dev.to/gonedark/a-closer-look-at-git-rebase
 
+Tip #1: Use git config --global pull.rebase true to avoid typing the --rebase flag each time you pull 🧐
 
+** working on git rebase
 
+** check on axumxs
+
+** work a  bit rebase from 7:00
+
+** https://jordanelver.co.uk/blog/2020/06/04/fixing-commits-with-git-commit-fixup-and-git-rebase-autosquash/#:~:text=Fixup%20commits&text=Practically%2C%20%2D%2Dfixup%20associates%20a,use%20with%20rebase%20%2D%2Dautosquash. another article on rebase
+
+** https://github.com/csqrl/luau-gh-chart
+
+** https://github.com/AsLogd/chart2json
+
+** from 9;00 - 10;00 --> work on fixes
+
+** avoid creating variables
+** https://github.com/TheAlgorithms/Rust
+** git branch clean with https://fle.github.io/git-tip-keep-your-branch-clean-with-fixup-and-autosquash.html
