@@ -197,3 +197,5 @@ todo:
  - Category theory
  - lambda calculas
  - functional mathematics
+
+- https://realpython.com/courses/writing-idiomatic-python/
