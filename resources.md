@@ -209,3 +209,4 @@ todo:
 
  - https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History
  - https://thoughtbot.com/blog/git-interactive-rebase-squash-amend-rewriting-history
+ -  Https://fle.github.io/git-tip-keep-your-branch-clean-with-fixup-and-autosquash.html
