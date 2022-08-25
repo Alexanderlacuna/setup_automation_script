@@ -2076,3 +2076,74 @@ Tip #1: Use git config --global pull.rebase true to avoid typing the --rebase fl
 
 
 
+
+23/8/22
+
+
+working from 10:00->14:00
+
+** fix the issue in the pr(together with git rebase)
+
+** make changes for publish
+a)check emails
+
+** try freds example also check on time
+
+** working on lit correlation 8** debugging
+** debugging lit correlation
+
+** as among todo todo look at freds work for lit correlatin
+
+** fixing error linux-firmware
+
+** changed to using gawk
+** https://github.com/bumpmann/herochartio
+
+*8 https://github.com/bumpmann/herochartio]
+
+*8 https://github.com/bumpmann/herochartio
+
+* https://github.com/Paturages/chorus
+* https://github.com/Paturages/chorus/blob/master/tests/charts/abysmal.chart
+
+
+24/8/22
+
+** working on correlation check lit correlation
+** write parser
+
+ ** https://github.com/dgatewood/GuitarZheroJSONConverter/blob/master/JSON_Converter.java
+
+
+88 bulk fetching
+** multiprocessing
+
+** learning on building a parser in general
+
+
+** first try brute force method-> iterationx
+
+** https://lihautan.com/json-parser-with-javascript/ creating a parser using js
+
+** implementing reading from files
+
+** maths solution
+
+** focus on time conversion
+
+>>> another article https://stackoverflow.com/questions/2038313/converting-midi-ticks-to-actual-playback-seconds
+
+ ** https://gist.github.com/frumpy4/9c73451ca5593273578729d0eba83517
+
+** https://osu.ppy.sh/wiki/en/Client/File_formats/Osu_%28file_format%29#timing-points
+
+** chart file documentation
+
+
+
+25/8/22
+
+** working on gn
+
+** fix issue I told fred then send email for a patch
+** limit number of lit results
