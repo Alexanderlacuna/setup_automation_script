@@ -533,7 +533,7 @@ from x_vals and y_vals and also parse to float
 => mpcc full correlation
 
 => from arun https://ownyourbits.com/2018/06/13/transparently-running-binaries-from-any-architecture-in-linux-with-qemu-and-binfmt_misc/
-
+vv
 => check out the paper by pjotr
 ==> https://github.com/wstrinz
 
@@ -2147,3 +2147,41 @@ a)check emails
 
 ** fix issue I told fred then send email for a patch
 ** limit number of lit results
+** look at query by fred
+
+** https://github.com/yewstack/yew/tree/master/website/docs/more
+
+
+** prepare for response tomorrow
+** what is remain
+
+  -  bulk query for lit correlation
+
+  - metadata for others
+
+  - penguin trials
+** looking at https://github.com/genenetwork/genenetwork3/blob/main/docs/performance/slow-probesetdata-sql.org
+
+** why do we store strain id
+
+** try to do test on penguin
+
+** disable shortcut key https://askubuntu.com/questions/755435/how-to-disable-the-shortcut-for-new-profile-in-command-line-terminal
+
+26/8/22
+
+coding-dude.com/wp/databases/creating-mysql-materialized-views/
+
+*** spend the day on the query also look for gn1
+
+
+*** reworking on caching
+
+*** rework on caching
+
+*** from arun ghttps://tailon.readthedocs.io/en/latest/
+
+** check for TEXTDIRg
+
+
+** let bring it home to gn2 baby
