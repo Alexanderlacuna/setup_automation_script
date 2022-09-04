@@ -2208,3 +2208,43 @@ coding-dude.com/wp/databases/creating-mysql-materialized-views/
 
 
 
+
+
+31/08/2022
+
+make sure rust is rebuilt parsing with python is super slow
+
+;;todo write script that can generate given number of datasets
+
+;; write script that can generate my own dataset files
+
+
+-> https://github.com/charliermarsh/ruff
+
+* write script that can generate all datasets
+
+** script to generate entire datasets
+
+1/9/2022
+
+** invoice writing
+
+2/9/2022
+
+** script
+
+** smart contract rust// macros rust
+
+We are seeking an experienced Rust developer with strong working knowledge and excellent familiarity with blockchain technologies. You would be responsible for building our initial product (smart contract) and deploy the smart contract on NEAR MAINNET).
+
+Requirements:
+- Rust developer, ideally 2 years+
+- Crypto experience: creation of smart contracts, wallet interactions, code audits.
+- Specific experience with Rust development for NEAR protocol.
+
+
+
+
+4/08/22
+
+** writing invoice
