@@ -120,6 +120,8 @@ Is differential privacy somehow related to homomorphic encryption? If not, what 
 
 - https://github.com/bheisler/criterion.rs
 
+- https://www.reddit.com/r/rust/comments/x5z4pn/this_might_be_the_best_rust_orm_library_so_far/?%2524deep_link=true&correlation_id=e8c2f96a-4cce-4ffb-8820-248160645eeb&post_fullname=t3_x5z4pn&post_index=1&ref=email_digest&ref_campaign=email_digest&ref_source=email&utm_content=post_title&%25243p=e_as&_branch_match_id=1095402855999478406&utm_medium=Email%20Amazon%20SES&_branch_referrer=H4sIAAAAAAAAA22Q3WrDMAyFnya7S9ImbsgGpQzGXkM4jpKI%2BQ9bId2efvK23g1sJL7DOZK9Mcf80rYJ55m40TE2lvxH28db1ak%2BXhF0fpI2JFrJawt7stetuKr%2Btere5RzH0fz5TXACUrl7ZikCHHrO0t4vXyp6aXijDI7WjWFC4A2lZIbigJAcWJqSTp%2BQAyy6ZFW9jFEzYoSyXNW%2Fcdqx6gYTUkKrmYIHmoXjaLrledC1MgZrtSxTPY7dqe7UeB5Og7ogTuKLQUYtu7VeOyxxPTy2%2B9XIz3gX4Swg4VKSnSYLM61Y3lUgGO2iptX%2Fr%2BawJ4MPTeDODkzwLN8h9GcME1v8Bp71ybeDAQAA
+
 - https://www.gnu.org/software/gsl/doc/html/statistics.html
 
 ## data structures and algorithms
