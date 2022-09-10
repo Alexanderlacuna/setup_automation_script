@@ -2278,3 +2278,54 @@ Requirements:
 ** top n should be done with rust
 
 //parse x_vals
+
+
+6/9/22
+
+working from 1:00 to 6:00
+
+//change the rust code then ping for a merge
+
+** making changes on the rust code
+
+** threshold for computing correlation
+** better handling of errors
+
+** https://github.com/Alexanderlacuna/correlation_rust/pull/new/feature/parse-with-rust
+
+** rest till 8:00
+
+** push with index then to zsloan
+
+** now begin on  a script to generate text files
+
+
+7/9/22
+
+** use csv to parse
+
+** faling if is empty fixup
+
+** change cache format
+** https://binarysearch.com/
+
+
+8/9/2022
+
+** generate my own text files--> work on this
+//what do I need
+1)
+debugging db error
+
+** https://blog.scottlogic.com/2020/10/08/lets-build-snake-with-rust.html
+
+
+9/9/22
+
+** repair a certain query -> formatting
+
+
+10/9/22
+
+** read reworking on git -> from bons
+** setting up  emacs
