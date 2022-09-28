@@ -98,7 +98,7 @@ play around with org roam
 
 10/4/2022
 
-- actual code for adding to colletions
+- (actual code for adding to colletions)
 
 - this week try to implement 12+ hours working schedule
 
@@ -108,7 +108,7 @@ play around with org roam
    
    -  find issues for the new week
    - finish on the pr on gn3
-
+n
 - rebuild genenetwork
 
    -  remove rpy2 from the build so hectic
@@ -2402,3 +2402,64 @@ https://www.fullstackpython.com/blog/make-phone-calls-python.html ** resources
 21/9/22
 
 * debug issue of missing files
+
+
+
+27/9/22
+
+** implement biweight
+
+** minor fixes
+
+** check other things to repair
+
+** biweight with r
+
+** working from 14;02
+** learning about biweight correlation
+
+
+references :https://en.wikipedia.org/wiki/R_(programming_language)
+
+https://en.wikipedia.org/wiki/Raku_(programming_language)
+
+* https://github.com/cran/WGCNA/blob/master/R/corFunctions.R
+
+* with language raku https://github.com/sumanstats/Statistics
+
+* https://github.com/sumanstats/Statistics/blob/main/lib/Correlation/BiweightMid.rakumod
+
+
+* computation data and action
+
+**  data are two vectors ??? check for equality
+** check for median then mad
+
+//article in rust
+
+https://benjaminbrandt.com/averages-in-rust/
+
+
+``` rust
+let y = x.iter().map(|&e| e as u32).collect(); casting
+
+```
+https://github.com/cran/WGCNA/blob/master/R/corFunctions.R
+
+//check for array manipulation similar to those for numpy
+
+// hold up on that
+
+//do cleanps
+
+// make some stats libs
+
+//great a path on what to do
+
+//todo move textfiles to one place
+
+
+29/9/22
+
+** emacs relative fix
+** do some gn work
