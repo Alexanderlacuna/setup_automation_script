@@ -2269,7 +2269,6 @@ Requirements:
 ** avoid twitter for effective results
 
 ** start with generating script
-
 ** steps get sample names,_ids
 
 ** metadata sometimes getting errors
@@ -2463,3 +2462,35 @@ https://github.com/cran/WGCNA/blob/master/R/corFunctions.R
 
 ** emacs relative fix
 ** do some gn work
+
+** update gemtext
+
+** implement  biweight correlation
+   ** solving array issues(experimenting)
+29/9/22
+
+** fixing segment error rust
+
+** fix quote issue csv
+
+//missing values issues
+https://github.com/apache/airflow/commit/c94f978a66a7cfc31b6d461bbcbfd0f2ddb2962e
+
+** airflow check issues
+
+
+//check file is not null
+//check if file really exists
+
+
+ v.sort_by(|a, b| a.partial_cmp(b).unwrap_or(Ordering::Equal))
+
+
+https://users.rust-lang.org/t/getting-nan-value-in-safe-code/60402/10
+
+https://stackoverflow.com/questions/40408293/how-do-i-sort-nan-so-that-it-is-greater-than-any-other-number-and-equal-to-an
+
+
+https://news.ycombinator.com/item?id=9089112
+
+https://users.rust-lang.org/t/watch-out-for-nans/70016
