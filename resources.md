@@ -38,6 +38,8 @@
 
  -  https://github.com/TheAlgorithms/Rust
 
+ - https://willcrichton.net/rust-api-type-patterns/introduction.html
+
  
 ## bash
 
