@@ -2522,3 +2522,5 @@ https://users.rust-lang.org/t/watch-out-for-nans/70016
 3/10/22
 
 * work on issue raised by fred
+
+** fix all errors for rust
