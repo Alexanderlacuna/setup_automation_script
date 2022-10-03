@@ -2517,4 +2517,8 @@ https://users.rust-lang.org/t/watch-out-for-nans/70016
 ** send patch for bug fred
 
 
-** biweight correlation 
+** biweight correlation
+
+3/10/22
+
+* work on issue raised by fred
