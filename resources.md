@@ -40,6 +40,8 @@
 
  - https://willcrichton.net/rust-api-type-patterns/introduction.html
 
+- https://blog.burntsushi.net/bstr/
+
  
 ## bash
 
