@@ -42,6 +42,8 @@
 
 - https://blog.burntsushi.net/bstr/
 
+
+- guix videos bootstrap https://av.tib.eu/media/53555 
  
 ## bash
 
