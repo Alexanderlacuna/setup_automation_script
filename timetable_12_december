@@ -2546,6 +2546,13 @@ https://users.rust-lang.org/t/watch-out-for-nans/70016
 
 what is not working
 
+
+escape character solved
+
+
 1) data parsing **preprocessing introduced a bug
 
-2) tissue correlation order not working
+  - use the fred route
+  -  revert everything and consult with fred
+
+2) tissue correlation order not working(correctness)
