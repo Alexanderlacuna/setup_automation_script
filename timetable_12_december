@@ -2524,3 +2524,7 @@ https://users.rust-lang.org/t/watch-out-for-nans/70016
 * work on issue raised by fred
 
 ** fix all errors for rust
+
+
+
+** issue with tissue correlation not working correclty
