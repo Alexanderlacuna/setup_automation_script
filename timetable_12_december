@@ -2542,3 +2542,10 @@ https://users.rust-lang.org/t/watch-out-for-nans/70016
 //rework on tissue something snack off
 
 //write a framework to solve this
+
+
+what is not working
+
+1) data parsing **preprocessing introduced a bug
+
+2) tissue correlation order not working
