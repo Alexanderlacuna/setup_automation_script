@@ -41,6 +41,7 @@
  - https://willcrichton.net/rust-api-type-patterns/introduction.html
 
 - https://blog.burntsushi.net/bstr/
+- https://github.com/nextest-rs/nextest
 
 - https://lexi-lambda.github.io/blog/2019/11/05/parse-don-t-validate/
 
