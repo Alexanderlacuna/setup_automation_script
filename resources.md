@@ -42,6 +42,8 @@
 
 - https://blog.burntsushi.net/bstr/
 
+- https://lexi-lambda.github.io/blog/2019/11/05/parse-don-t-validate/
+
 
 - guix videos bootstrap https://av.tib.eu/media/53555 
  
