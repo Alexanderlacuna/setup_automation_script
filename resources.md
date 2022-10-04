@@ -232,3 +232,9 @@ todo:
 
 - https://lexi-lambda.github.io/blog/2020/01/19/no-dynamic-type-systems-are-not-inherently-more-open/
 - https://lexi-lambda.github.io/blog/2019/10/19/empathy-and-subjective-experience-in-programming-languages/
+
+
+
+## general 2
+
+- https://www.mattkeeter.com/blog/2022-10-04-ssra/
