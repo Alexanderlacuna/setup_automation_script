@@ -2570,3 +2570,7 @@ escape character solved
 ** fix arguments for top to avoid confusion
 
 //check issue for parsing tissue
+
+///fix whacky tissue correlation
+
+//emulate for top n tissue
