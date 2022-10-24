@@ -75,6 +75,8 @@ https://superuser.com/questions/332510/how-to-transfer-my-ssh-keys-to-another-ma
 
 - https://github.com/bbatsov/solarized-emacs
 
+= https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html emacs docs
+
 ### magit walkthrough
 
 - https://emacsair.me/2017/09/01/the-magical-git-interface/
