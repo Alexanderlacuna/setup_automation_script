@@ -101,6 +101,8 @@ https://superuser.com/questions/332510/how-to-transfer-my-ssh-keys-to-another-ma
 
 - https://www.maketecheasier.com/use-email-within-emacs/
 
+- http://xahlee.info/talk_show/xah_talk_show_2022-09-29.html
+
 ## Linux
 
 ### Do backup conversion
@@ -263,3 +265,4 @@ todo:
  import dis
 
 ```
+
