@@ -247,3 +247,11 @@ todo:
 - https://inv.riverside.rocks/watch?v=Ufppjwgfnm0 good videos for opensource
 
 ** check on lmdb
+
+## python
+
+ -  using the dis module to check what happens
+ ``` python
+ import dis
+
+```
