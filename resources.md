@@ -25,6 +25,8 @@
 
  - rust for rustaceans
 
+ -  need for specification in rust https://blog.m-ou.se/rust-standard/
+
  - https://yew.rs/docs/tutorial#using-rust-language-constructs-in-the-markup
 
  - idiomatic rust - github repo
