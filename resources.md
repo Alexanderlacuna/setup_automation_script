@@ -25,6 +25,8 @@
 
  - rust for rustaceans
 
+ - rust specificication by ferocene https://spec.ferrocene.dev/
+
  -  need for specification in rust https://blog.m-ou.se/rust-standard/
 
  - https://yew.rs/docs/tutorial#using-rust-language-constructs-in-the-markup
