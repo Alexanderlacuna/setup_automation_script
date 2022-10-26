@@ -274,3 +274,6 @@ todo:
 
 
 ### functional programming
+
+ -  SICP
+ -  the little schemer
