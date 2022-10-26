@@ -270,3 +270,7 @@ todo:
 
 ```
 
+
+
+
+### functional programming
