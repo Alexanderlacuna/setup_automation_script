@@ -103,6 +103,8 @@ https://superuser.com/questions/332510/how-to-transfer-my-ssh-keys-to-another-ma
 
 - http://xahlee.info/talk_show/xah_talk_show_2022-09-29.html
 
+- (godmode emacs)https://www.reddit.com/r/emacs/comments/2sb8lj/how_do_evil_users_feel_about_godmode/
+
 ## Linux
 
 ### Do backup conversion
