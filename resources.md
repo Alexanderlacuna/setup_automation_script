@@ -277,3 +277,4 @@ todo:
 
  -  SICP
  -  the little schemer
+ - this haskell boo http://haskellbook.com/
