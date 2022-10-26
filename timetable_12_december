@@ -2609,3 +2609,26 @@ working on emacs read docs
 25/10/22
 
 ** work on the create trait thing
+
+
+
+26/10/22
+
+    if bool(kw.get('dataset')):
+        dataset = kw.get('dataset')
+
+    else:
+        if kw.get('dataset_name') != "Temp":
+
+
+            dataset = create_dataset(kw.get('dataset_name'))
+        else:
+
+            
+            dataset = create_dataset(
+                    dataset_name="Temp",
+                    dataset_type="Temp",
+                    group_name= kw.get('name').split("_")[2])
+
+    kw["dataset_obj"] = dataset
+
