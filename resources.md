@@ -25,6 +25,8 @@
 
  - rust for rustaceans
 
+ - algorithms in rust https://github.com/TheAlgorithms/Rust
+
  - rust specificication by ferocene https://spec.ferrocene.dev/
 
  -  need for specification in rust https://blog.m-ou.se/rust-standard/
