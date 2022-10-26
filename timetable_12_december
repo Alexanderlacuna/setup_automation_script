@@ -2639,3 +2639,5 @@ working on emacs read docs
 ** update issue on metadata caching
 
 //check materialized mariadb
+
+//check on lmdb by arun
