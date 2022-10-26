@@ -245,3 +245,5 @@ todo:
 - https://www.mattkeeter.com/blog/2022-10-04-ssra/
 
 - https://inv.riverside.rocks/watch?v=Ufppjwgfnm0 good videos for opensource
+
+** check on lmdb
