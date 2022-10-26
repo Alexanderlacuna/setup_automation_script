@@ -2634,3 +2634,6 @@ working on emacs read docs
 
 
 //check all other places dataset obj are used
+
+** check on lmdb
+** update issue on metadata caching
