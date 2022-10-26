@@ -105,6 +105,8 @@ https://superuser.com/questions/332510/how-to-transfer-my-ssh-keys-to-another-ma
 
 - (godmode emacs)https://www.reddit.com/r/emacs/comments/2sb8lj/how_do_evil_users_feel_about_godmode/
 
+- https://www.reddit.com/r/emacs/comments/supjnb/what_is_your_setup_for_python_coding_in_emacs/
+
 ## Linux
 
 ### Do backup conversion
