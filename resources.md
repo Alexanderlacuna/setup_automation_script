@@ -25,6 +25,8 @@
 
  - rust for rustaceans
 
+ - https://yew.rs/docs/tutorial#using-rust-language-constructs-in-the-markup
+
  - idiomatic rust - github repo
  
  - https://mattgathu.dev/2020/04/28/rust-reading-list.html
