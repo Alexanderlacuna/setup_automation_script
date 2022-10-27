@@ -21,6 +21,8 @@
 
 - https://pypi.org/project/memory-profiler/
 
+- https://github.com/plasma-umass/scalene (profile for python)
+
 
 
 ## rust
