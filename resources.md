@@ -278,3 +278,6 @@ todo:
  -  SICP
  -  the little schemer
  - this haskell boo http://haskellbook.com/
+
+
+- try to finish before today ends freds work
