@@ -17,6 +17,10 @@
    - https://dev.to/cheukting_ho/python-zero-to-hero-ep-20-python-functional-programming-2cfj
    - https://nedbatchelder.com/  new resource on python ethics
 
+   - memory profile python py_mdp
+
+- https://pypi.org/project/memory-profiler/
+
 
 
 ## rust
