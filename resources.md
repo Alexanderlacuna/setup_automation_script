@@ -276,6 +276,12 @@ todo:
 
 ```
 
+### laptops
+
+ - https://www.phonestablets.co.ke/product/lenovo-thinkpad-x1-carbon/
+
+
+
 
 
 
