@@ -25,6 +25,8 @@
 
 - https://pythondev.readthedocs.io/startup_time.html
 
+- https://pythondev.readthedocs.io/index.html (personal blogs on python)
+
 
 
 ## rust
