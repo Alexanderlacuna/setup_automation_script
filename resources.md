@@ -23,6 +23,8 @@
 
 - https://github.com/plasma-umass/scalene (profile for python)
 
+- https://pythondev.readthedocs.io/startup_time.html
+
 
 
 ## rust
