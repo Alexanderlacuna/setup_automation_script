@@ -2672,3 +2672,14 @@ GUIX_PROFILE="/home/kabui/.guix-extra-profiles/genenetwork
 
 new command
  env GN2_PROFILE="/home/kabui/.guix-extra-profiles/genenetwork" TEMPDIR=/home/kabui/tmp GN_PROXY_URL="http://localhost:8080" GN3_LOCAL_URL="http://localhost:8081"  SERVER_PORT=5004 WEBSERVER_MODE=DEBUG LOG_LEVEL=DEBUG GENENETWORK_FILES=/home/kabui/data/genotype_files /home/kabui/project3/genenetwork2/bin/genenetwork2 /home/kabui/project3/genenetwork2/etc/default_settings.py
+
+
+
+3/11/22
+
+** focus on reading books
+
+** write invoice
+
+** take a task gn2
+4/11/22
