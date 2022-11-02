@@ -2651,3 +2651,24 @@ working on emacs read docs
 28/10/22
 
 ** check if bug in bioinfomartics or update issue
+
+
+
+//check this out
+
+GUIX_PROFILE="/home/kabui/.guix-extra-profiles/genenetwork"
+
+. "$GUIX_PROFILE/etc/profile"
+
+
+guix pull -C channels.scm -p ~/.guix-extra-profiles/genenetwork
+
+** data structure and algorithms on the weekend
+
+GUIX_PROFILE="/home/kabui/.guix-extra-profiles/genenetwork
+
+. "$GUIX_PROFILE/etc/profile"
+
+
+new command
+ env GN2_PROFILE="/home/kabui/.guix-extra-profiles/genenetwork" TEMPDIR=/home/kabui/tmp GN_PROXY_URL="http://localhost:8080" GN3_LOCAL_URL="http://localhost:8081"  SERVER_PORT=5004 WEBSERVER_MODE=DEBUG LOG_LEVEL=DEBUG GENENETWORK_FILES=/home/kabui/data/genotype_files /home/kabui/project3/genenetwork2/bin/genenetwork2 /home/kabui/project3/genenetwork2/etc/default_settings.py

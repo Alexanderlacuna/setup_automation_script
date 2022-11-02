@@ -297,3 +297,8 @@ todo:
 
 
 - try to finish before today ends freds work
+
+
+## books sites
+
+- https://b-ok.africa/book/2779892/2466e4  (link whatsapp) 
