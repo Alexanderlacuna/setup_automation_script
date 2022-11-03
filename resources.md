@@ -108,6 +108,10 @@ https://superuser.com/questions/332510/how-to-transfer-my-ssh-keys-to-another-ma
 
 - awesome emacs https://github.com/emacs-tw/awesome-emacs
 
+- https://www.tabnine.com/blog/17-cool-emacs-packages/
+
+** check project emacs
+
 
 
 
