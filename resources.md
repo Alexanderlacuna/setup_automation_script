@@ -110,7 +110,12 @@ https://superuser.com/questions/332510/how-to-transfer-my-ssh-keys-to-another-ma
 
 - https://www.tabnine.com/blog/17-cool-emacs-packages/
 
+- https://github.com/DarthFennec/highlight-indent-guides
+
 ** check project emacs
+
+- building intelligent emacs
+  - https://ianyepan.github.io/posts/emacs-ide/
 
 
 
