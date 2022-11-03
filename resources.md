@@ -104,6 +104,10 @@ https://superuser.com/questions/332510/how-to-transfer-my-ssh-keys-to-another-ma
 
 - https://github.com/abo-abo/swiper
 
+- https://github.com/jojojames/dired-sidebar
+
+- awesome emacs https://github.com/emacs-tw/awesome-emacs
+
 
 
 
