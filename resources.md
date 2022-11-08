@@ -27,6 +27,8 @@
 
 - https://pythondev.readthedocs.io/index.html (personal blogs on python)
 
+- https://realpython.com/lessons/truth-value-testing/
+
 
 
 ## rust

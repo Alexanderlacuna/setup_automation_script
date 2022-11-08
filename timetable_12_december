@@ -2690,3 +2690,20 @@ find issue to take up upon
 work from 2
 
 ** pick issue https://github.com/genenetwork/gn-gemtext-threads/commit/77e7ea7b7fb9fd2961526122a41512fd00da9858
+
+//refactor function correlation json for table
+
+
+
+
+7/11/22
+
+** refactoring code break into chunks
+** fixing a bug : issue was not including f1 parents
+
+
+8/11/22
+
+**  fixing  issue:menu issue other primary,other
+
+** fixing issue for non matching values
