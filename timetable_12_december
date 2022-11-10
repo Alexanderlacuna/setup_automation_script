@@ -2707,3 +2707,35 @@ work from 2
 **  fixing  issue:menu issue other primary,other
 
 ** fixing issue for non matching values
+
+
+** refactor the piece of code first
+
+
+** issue list and dict
+
+** refactoring correlation json table
+
+9/11/22
+
+tomorrow finalize on the correlation part
+
+
+
+9/11/22
+
+* refactoring code
+
+* fix the arguments part
+
+* fix for location type
+
+
+//apply filters then populate and viceversa
+
+//refactor this orrelation_json_for_table
+
+10/11/22
+
+* working on refactorung code make changes recommended
+work from 14:30
