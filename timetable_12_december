@@ -2739,3 +2739,25 @@ tomorrow finalize on the correlation part
 
 * working on refactorung code make changes recommended
 work from 14:30
+
+
+11/11/22
+
+
+
+* https://github.com/genenetwork/gn-gemtext-threads/commit/18bdd41bbeab248677cd7c544ad3e0660170c062
+
+* https://github.com/genenetwork/gn-gemtext-threads/commits/main f1 parents
+
+
+* https://github.com/genenetwork/genenetwork2/pull/739 parsing sample data
+
+* https://github.com/genenetwork/gn-gemtext-threads/commit/d67fcd50e377783d8bb18955b6cd589f26e69da6 fewer results
+
+
+
+* issue on decoupling thinkgs https://github.com/genenetwork/gn-gemtext-threads/commit/3954942d37a683f7b147889cb54f4b924a1fecd2 decoupling issue
+
+** could working on the database over the weekend finalize on that
+
+** materialized views with mariadb //store the materialized views in lmdb
