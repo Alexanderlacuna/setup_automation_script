@@ -29,6 +29,13 @@
 
 - https://realpython.com/lessons/truth-value-testing/
 
+- https://github.com/Alexanderlacuna/python-patterns (good article)
+
+- https://github.com/Alexanderlacuna/clean-code-javascript
+
+- https://github.com/TheAlgorithms/Python (algorithms in python)
+
+
 
 
 ## rust
