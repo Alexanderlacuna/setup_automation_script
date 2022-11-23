@@ -282,6 +282,7 @@ todo:
 ## functional mathy programming
 
 - https://lexi-lambda.github.io/
+- https://twdev.blog/2022/09/parser_combinators/
 
 - https://lexi-lambda.github.io/blog/2020/01/19/no-dynamic-type-systems-are-not-inherently-more-open/
 - https://lexi-lambda.github.io/blog/2019/10/19/empathy-and-subjective-experience-in-programming-languages/
