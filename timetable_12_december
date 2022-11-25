@@ -2844,3 +2844,19 @@ materialize views check
 24/11/22
 
 * https://twdev.blog/2022/09/parser_combinators/
+
+* debugging issue small number of results not matching
+
+* setting up rdf
+
+* fix test issues
+
+
+25/11/22
+
+* working on the bug
+* fix the issue
+
+** if a certain index is none replace with a none value
+
+** issue with order with samples
