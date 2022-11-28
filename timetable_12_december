@@ -2860,3 +2860,28 @@ materialize views check
 ** if a certain index is none replace with a none value
 
 ** issue with order with samples
+
+** assume positional fix
+
+** identified issue for non probeset type
+number of items is not equal
+
+** now check on the rust sorting
+
+** no items weird
+** solution for sorting nan can be found here
+
+
+28/11/22
+
+* issue first look at the sorting issue
+
+// what do I think correlation need
+* fix common bugs
+* good db implement materialize views lmdb easy caching
+* caching of metadata
+
+* https://github.com/rust-lang/rfcs/issues/1249
+* sorting floats in rust
+
+//working on a new sort for rust floats 
