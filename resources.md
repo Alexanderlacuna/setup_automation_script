@@ -21,6 +21,8 @@
 
 - https://pypi.org/project/memory-profiler/
 
+- https://inference-review.com/article/the-origins-of-python (origin of python)
+
 - https://github.com/plasma-umass/scalene (profile for python)
 
 - https://pythondev.readthedocs.io/startup_time.html

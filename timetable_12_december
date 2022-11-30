@@ -2884,4 +2884,64 @@ number of items is not equal
 * https://github.com/rust-lang/rfcs/issues/1249
 * sorting floats in rust
 
-//working on a new sort for rust floats 
+//working on a new sort for rust floats
+
+* check on materialize views
+
+//how can some traits be none not possible
+//fixed bug for length
+
+chill look  at this issue by zac probeset
+https://www.linkedin.com/search/results/content/?keywords=attachment%20kenya&origin=GLOBAL_SEARCH_HEADER&sid=5ui
+https://www.linkedin.com/posts/lucymuthoni_internship-opportunities-2023-january-intake-activity-7000033904241840128-YqKy?utm_source=share&utm_medium=member_desktop
+https://www.nita.go.ke/our-services/industrial-attachment.html
+https://www.google.com/search?q=industrial+attachment+kenya+statistics&sxsrf=ALiCzsby148ZJZ6i9H659okYbjMCEVK8Iw:1669601463172&ei=txiEY6SMCqaExc8PpsOSoAY&oq=industrial+attachment+kenya+sta&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAxgAMgUIIRCgATIFCCEQoAE6BggAEBYQHjoFCAAQhgM6CAghEBYQHhAdSgQIQRgASgQIRhgAUABYowVgnxVoAHABeACAAa0CiAHeBpIBBTItMi4xmAEAoAEBwAEB&sclient=gws-wiz-serp&ibp=htl;jobs&sa=X&ved=2ahUKEwiLy-OU5s_7AhVkbPEDHYfuDkoQkd0GegQIPRAB#fpstate=tldetail&htivrt=jobs&htiq=industrial+attachment+kenya+statistics&htidocid=mPQgM74rn_oAAAAAAAAAAA%3D%3D
+
+??? how do you write the files /??  fetch data
+ ** read one chapter of rust for rustacteans
+
+** merged the commit now look at guix-bioinformatics
+
+** update guix-bioinfomartics
+
+** make gn3 run
+
+** look at issue index error
+
+** incase of a failure do a fresh post script fetch
+
+/idea to  solve probeset issue
+/ gn1 look for code that uses materialize views
+/ gn2 tap into that for text files
+
+// generate data
+matrix web/webqtl/maintainance/dataset/generate_ProbeSetFreeze_DataMatrix.py
+
+
+
+
+29/11/22
+
+* the other issue is sorting stuff
+
+* check for other bugs
+
+
+//i think the issue is that am not caching all strains
+
+//function to fetch all strains
+
+//temporary use gn1 files
+
+//issue gn2
+
+//fix failing tests  first make gn3 to run
+
+//fix python  pingouin
+//try using  a channel
+
+//check on issue for sample types
+
+30/11/22
+
+// rework on text file stuff
