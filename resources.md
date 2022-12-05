@@ -283,6 +283,8 @@ todo:
 
 ## functional mathy programming
 
+- https://leanprover.github.io/functional_programming_in_lean/monads/do.html (lean programming language)
+
 - https://lexi-lambda.github.io/
 - https://twdev.blog/2022/09/parser_combinators/
 
