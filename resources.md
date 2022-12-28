@@ -340,3 +340,8 @@ todo:
 *  all books artcle to find them is
 
 - https://www.reddit.com/r/DataHoarder/comments/ymiwzs/zlibrary_isnt_really_gone_but_that_maybe_up_to_you/
+
+
+## hacking
+
+- https://www.maketecheasier.com/find-saved-wi-fi-passwords-linux/
