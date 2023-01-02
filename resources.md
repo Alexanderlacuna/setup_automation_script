@@ -102,6 +102,13 @@ https://superuser.com/questions/332510/how-to-transfer-my-ssh-keys-to-another-ma
 
 ## Emacs resources
 
+
+
+### add ons
+#### indent guide https://github.com/zk-phi/indent-guide#comparisons-with-highlight-indentation
+
+- https://github.com/antonj/Highlight-Indentation-for-Emacs/
+
 ### themes
 
 - https://github.com/bbatsov/solarized-emacs
