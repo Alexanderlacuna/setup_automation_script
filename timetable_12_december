@@ -3061,3 +3061,21 @@ first day work up at 11:20
 ** task based conccurrency
 
 // check on conccurency and parralelism
+
+//collect iterator to vec order will be preserved
+
+- https://github.com/DataDog/glommio
+
+- https://github.com/rayon-rs/rayon
+- https://grpc.io/docs/what-is-grpc/introduction/
+
+- fosdem https://fosdem.org/2023/schedule/track/rust/
+
+
+
+4/1/23
+
+- work on invoice
+- one algorihms per day
+
+- look at several resumes
