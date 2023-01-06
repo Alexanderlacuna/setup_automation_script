@@ -3091,3 +3091,45 @@ first day work up at 11:20
 * https://issues.genenetwork.org/issues/correlations-script-to-build-text-files
 
 ** working on the automative script aspect
+
+/store in textfiles
+/ generate data
+
+//start with probeset type
+
+1) fetch all strains for a given dataset
+
+2) use that to fetch the strain values
+
+
+** setup the machine for development
+
+//issue how can I get all possible strains including f1 parents and f2 parents //see
+
+** todo software to compute probabilty of drawing
+
+** issue how do fetch all strains
+
+// do trial and error to know what's is inbred set id
+
+//choose one dataset to use as a test experiment/
+
+//working on getting all possible strains
+
+//what is inbred
+
+//store the results in lmdb
+
+//checking on lmbd
+
+//if things go well write articles on lmdb
+
+* articles on lmbd https://groups.google.com/g/caffe-users/c/-vWuaM3bnro
+
+* https://blog.51cto.com/sddai/3023479
+
+* https://stackoverflow.com/questions/44266384/write-numpy-arrays-to-lmdb
+
+* https://gist.github.com/kyamagu/4f47cc7e06401141b34fa642c5170258
+
+learning about lmdb
