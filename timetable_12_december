@@ -3144,3 +3144,71 @@ learning about lmdb
 
 * working on lmdb (connect this to lmdb)
 
+//check for change for multiple tables
+//Your UPDATE_TIME is null because you're using InnoDB instead of MyISAM. InnoDB is generally the better choice, but it doesn't support UPDATE_TIM
+
+
+//structure of strains make it difficult maybe at time of addition check for addition
+
+// at time of inception check for that
+
+//create diff in a table
+
+https://stackoverflow.com/questions/57199344/how-to-compare-date-timestamp-between-two-tables
+
+
+* add on change for strains
+
+//fetch the data check in part of probeset
+
+//trigger the generation
+
+
+//
+
+SELECT database_name,table_name,last_update FROM
+  mysql.innodb_table_stats a,
+  (SELECT database_name AS db_last_update_name,
+       max(last_update) AS db_last_update 
+   FROM mysql.innodb_table_stats 
+   WHERE database_name not in ( "mysql","sys")
+   GROUP BY database_name )  AS b 
+WHERE a.database_name = b.db_last_update_name 
+  AND a.last_update = b.db_last_update ;
+
+
+https://stackoverflow.com/questions/2785429/how-can-i-determine-when-an-innodb-table-was-last-changed
+
+/how about we add timestamp for this
+
+//add a table tracker
+
+1) create a table tracker
+
+// https://dba.stackexchange.com/questions/291291/how-to-check-the-last-time-a-table-has-been-modified
+
+
+//https://dba.stackexchange.com/questions/291291/how-to-check-the-last-time-a-table-has-been-modifiedhttps://dba.stackexchange.com/questions/291291/how-to-check-the-last-time-a-table-has-been-modified
+
+//script to run on modification of dataset
+
+SELECT UNIX_TIMESTAMP(MAX(UPDATE_TIME)) as last_update 
+FROM information_schema.tables 
+WHERE TABLE_SCHEMA='db_webqtl' 
+GROUP BY TABLE_SCHEMA;
+
+- https://dev.mysql.com/doc/refman/8.0/en/checksum-table.html
+
+- https://stackoverflow.com/questions/8643018/mysql-fastest-way-to-check-if-data-in-innodb-table-has-changed
+
+9/12/22
+
+* how to make this approach
+
+1) pjotr approach
+   * api to create all files
+   * option to with textfiles and without textfiles
+   * api to delete all files
+      * delete specific textfile
+
+
