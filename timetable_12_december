@@ -3212,3 +3212,8 @@ GROUP BY TABLE_SCHEMA;
       * delete specific textfile
 
 
+
+
+* work on file inner circle pass files
+
+//compute with textfiles and without textfiles--> easier 
