@@ -3216,4 +3216,47 @@ GROUP BY TABLE_SCHEMA;
 
 * work on file inner circle pass files
 
-//compute with textfiles and without textfiles--> easier 
+//compute with textfiles and without textfiles--> easier
+
+10/1/23
+
+
+* work on textfiles
+* api first //
+
+1) never lose your money
+
+
+11/1/23
+
+* select last update time for innodb
+
+//ask for clarification for which table we use
+
+* maybe first we could start by invoking this once per day  right
+
+//later improve the script to use last modified time
+
+
+//fetch all probeset freezes
+
+// fetch one probest freeze by name
+
+// delete specific one
+
+
+//delete all
+
+// working on the storage part lmdb
+
+//check on youtube on this
+
+//what I need to achieve today know how to write and read
+
+// ct working on lmdb\
+
+//https://programtalk.com/python-examples/lmdb.open/
+
+https://programmer.group/python-reading-of-lmdb-files.html
+
+//read on thread by run
