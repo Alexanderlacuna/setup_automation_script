@@ -3269,3 +3269,17 @@ https://cran.r-project.org/web/packages/thor/thor.pdf
 
 * work on relationsthip between lmdb matrix and vector
 * continue reading the docs
+
+* simple to advanced
+
+* write to files can;t understand lmdb
+
+//working on disecting
+
+//gn3/genodb.py code
+
+//so ideally he is storing the data in blobs
+
+//what is caffee
+//so genodb is an abstraction to lmdb
+worked roughly 6hrs 
