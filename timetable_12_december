@@ -3282,4 +3282,15 @@ https://cran.r-project.org/web/packages/thor/thor.pdf
 
 //what is caffee
 //so genodb is an abstraction to lmdb
-worked roughly 6hrs 
+worked roughly 6hrs
+
+//what we convert the results to numpy then store payload and a has for the file the decode the np.shape that the rough idea
+
+//encode numpy array
+
+https://stackoverflow.com/questions/71437079/python-how-to-split-a-nested-numpy-array-and-use-each-in-encryption-method
+
+
+https://stackoverflow.com/questions/6485790/numpy-array-to-base64-and-back-to-numpy-array-python
+
+//csv file python
