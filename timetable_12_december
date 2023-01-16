@@ -3336,4 +3336,22 @@ b) make gn3 run  done
 compute with cache and without >>> use toggle button
 
 
-rework on the ui as first 
+rework on the ui as first
+
+//something off correlation is slow
+
+
+//way to integrate both local and gn_share files correlation
+
+//issue correlation between the two
+
+** potential bug  here
+
+//fix config for set directory
+
+add new script for metdata
+
+
+//create script
+
+1) aim a compute with cache  and without cache add that
