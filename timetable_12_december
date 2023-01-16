@@ -3294,3 +3294,46 @@ https://stackoverflow.com/questions/71437079/python-how-to-split-a-nested-numpy-
 https://stackoverflow.com/questions/6485790/numpy-array-to-base64-and-back-to-numpy-array-python
 
 //csv file python
+
+
+
+16/1/23
+
+* resetup genenetwork
+
+1) compute with cache
+2) without cache
+3) delete all files
+
+4) delete specific file
+
+
+working from 9:00
+
+
+
+ GUIX_PROFILE="/home/kabui/.guix-extra-profiles/genenetwork"
+
+env GN2_PROFILE=/home/kabui/.guix-extra-profiles/genenetwork TMPDIR=/home/kabui/tmp SERVER_PORT=5004 WEBSERVER_MODE=DEBUG LOG_LEVEL=DEBUG
+GENENETWORK_FILES=/home/kabui/data/genotype_files /home/kabui/project3/genenetwork2/bin/genenetwork2
+/home/kabui/project3/genenetwork2/etc/default_settings.py  -c -m unittest discover -v
+
+
+* //fixing error module error wqflask api import
+
+break from 2:00
+
+working from 7:00
+
+script
+
+a) compute with cache no cache
+
+step a make genenetwork run
+
+b) make gn3 run  done
+
+compute with cache and without >>> use toggle button
+
+
+rework on the ui as first 
