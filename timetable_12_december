@@ -3480,3 +3480,13 @@ working from 1:45
 // now work on running all at once
 
 break till 14;45
+
+//working on generating lmdb textfiles
+
+** look at caffee
+//stringify the data key is the id value
+
+caffee seems intereseting
+
+
+bytes array vs bytes 
