@@ -3489,4 +3489,39 @@ break till 14;45
 caffee seems intereseting
 
 
-bytes array vs bytes 
+bytes array vs bytes
+
+//opened way for that
+
+
+// basic structure just read the file
+
+24/1/23
+
+* work on data serialiazition
+
+//bytes to buffer
+
+//working on serialization
+
+https://stackoverflow.com/questions/53376786/convert-byte-array-back-to-numpy-array
+
+///how to get initial number of columns and rows
+
+//add metadata associated with the file
+
+//add colids metadata
+
+// txt metadata files
+
+https://stackoverflow.com/questions/31649216/writing-data-to-lmdb-with-python-very-slow
+
+///write once read many times
+
+//fix error mapsize
+//store metadata and hash
+
+//bytes to array too slow
+//work from size
+
+https://snyk.io/advisor/python/lmdb/functions/lmdb.open
