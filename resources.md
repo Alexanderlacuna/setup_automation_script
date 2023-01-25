@@ -358,3 +358,16 @@ todo:
 ## rust
 
 -  https://marabos.nl/atomics/
+
+
+## python
+
+
+article on functional python
+
+- https://www.tweag.io/blog/2023-01-19-fp2-dial-m-for-monoid/
+
+
+## jobs
+
+- https://boards.greenhouse.io/tweag/jobs/5306189003
