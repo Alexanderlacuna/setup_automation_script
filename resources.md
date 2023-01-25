@@ -352,3 +352,9 @@ todo:
 ## hacking
 
 - https://www.maketecheasier.com/find-saved-wi-fi-passwords-linux/
+
+# 2023
+
+## rust
+
+-  https://marabos.nl/atomics/
