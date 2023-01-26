@@ -367,7 +367,20 @@ article on functional python
 
 - https://www.tweag.io/blog/2023-01-19-fp2-dial-m-for-monoid/
 
+## guido blogs
+- https://neopythonic.blogspot.com/2019/03/
+
 
 ## jobs
 
 - https://boards.greenhouse.io/tweag/jobs/5306189003
+
+
+## bets
+
+-   https://jamesfixed.com/
+- messi-7
+
+ -norabet(amazing)
+
+- https://www.predictz.com/
