@@ -384,3 +384,9 @@ article on functional python
  -norabet(amazing)
 
 - https://www.predictz.com/
+
+
+
+## backend
+
+- https://www.udemy.com/course/fundamentals-of-backend-communications-and-protocols/?couponCode=BACK-JAN23-999B#instructor-1
