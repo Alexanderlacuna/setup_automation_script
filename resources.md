@@ -390,3 +390,8 @@ article on functional python
 ## backend
 
 - https://www.udemy.com/course/fundamentals-of-backend-communications-and-protocols/?couponCode=BACK-JAN23-999B#instructor-1
+
+
+## functional programming
+
+- https://www.programmingbooks.dev/more/#get-programming-with-haskell
