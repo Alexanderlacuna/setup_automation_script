@@ -395,3 +395,10 @@ article on functional python
 ## functional programming
 
 - https://www.programmingbooks.dev/more/#get-programming-with-haskell
+
+
+## emacs
+
+### org mode
+
+* https://www.google.com/search?q=org+agenda&oq=org+agenda&aqs=chrome.0.69i59j69i60.3899j0j4&sourceid=chrome&ie=UTF-8#fpstate=ive&vld=cid:710130c9,vid:Ea_-TaEGa7Y
