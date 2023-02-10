@@ -405,3 +405,29 @@ article on functional python
 
 
 * https://orgmode.org/manual/The-clock-table.html
+
+* write things you can work on
+
+* network connection ctl and wgcna (1)
+* packages
+
+
+* https://issues.genenetwork.org/issues/pca-changes
+
+* https://issues.genenetwork.org/issues/trait-page-mapping-bug
+
+** handling environment variables TEXTDIR and TMPDIR
+
+* bet till 7:30
+
+** fix textfiles
+
+* https://convertbetcodes.com/c/hot-prediction/37233/betway-code-X4398098B
+
+
+** check on org clock play around with orgmode
+
+
+** nice page on org clock
+
+* I read the book: "Sketchy Scheme"
