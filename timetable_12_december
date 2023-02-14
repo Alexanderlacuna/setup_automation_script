@@ -3777,3 +3777,48 @@ jquery datatable???
 * network connecction remove
 
 * working from 13;30
+
+
+
+13/2/23
+
+* work on gn search
+
+** TODO look at open issues
+** TODO  familiarize with the codebase
+** TODO break down the code into smaller chunks
+** TODO test out basic  functionality own examples
+**  TODO if task to complete fix
+** TODO design the ui ideas breakdown
+
+looking at the codebase
+
+
+** org clock not working
+
+** till 4 work on setting up orgmode
+
+
+*8 org clock
+
+** take a break
+
+frustrated org mode is not working
+
+
+14/2/23
+
+  state 0x0, keycode 66 (keysym 0xffe5, Caps_Lock), same_screen YES,
+
+
+links from arun
+
+- https://issues.genenetwork.org/issues/default-search-query-in-search-field
+
+- https://issues.genenetwork.org/issues/full-text-search
+
+- https://issues.genenetwork.org/issues/improve-presentation-of-search-results
+
+- https://issues.genenetwork.org/issues/enter-key-in-global-search-field
+
+- https://issues.genenetwork.org/issues/default-search-query-in-search-field
