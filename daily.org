@@ -1,0 +1,9 @@
+# did resetup emacs for the previous worklog for previos days check email
+
+* gn search
+
+** TODO finish on indexing search xapian stuff
+
+** TODO pick a new issues to work on
+
+
