@@ -1,3 +1,4 @@
+#!/bin/bash
 
 # find fix not stable maybe call script to make sure snap is installed
 # sudo snap install emacs --classic
