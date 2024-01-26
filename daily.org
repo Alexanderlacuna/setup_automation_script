@@ -1,3 +1,4 @@
+
 # did resetup emacs for the previous worklog for previos days check email
 
 * gn search
@@ -7,3 +8,1846 @@
 ** TODO pick a new issues to work on
 
 
+
+
+* genenetwork guile markdown
+
+
+** how to load guix packages in guile application hack that first
+** markdown to html intepretation
+
+** base repo commit(refer to work by arun)
+     GUIX_PROFILE="/home/kabui/.guix-profile"
+     . "$GUIX_PROFILE/etc/profile"
+
+Alternately, see `guix package --search-paths -p
+"/home/kabui/.guix-profile"'.
+
+
+using manifest file
+
+
+finally working
+y
+;;work on reading the file
+
+;;worked on the parser
+
+;;read remote file github
+
+;;authentication
+
+;;commit to local repo
+
+;;try using the example message
+
+** focus on creating fetching file repo and making commits
+
+;; step 1:: open the repo
+;;step 2:fetch content to edit
+;;step 3: stage and commit the stages
+
+
+seems I will have to create my own bindings
+
+https://aviator-game.in/tricks-strategies/
+
+wss://api.pakakumi.com/socket.io/?v=50&EIO=4&transport=websocket&sid=bPYTQDIL75eJYnYmAb6t
+
+
+* genenetwork
+
+** rewriting interface for libgit2 commits
+I worked on rewriting ffi binding for making commit and fetching tree 
+this is currently not possible in guile-git which only support read operation
+
+this together with binding gn auth are the only remaining stuff.
+
+
+* genenetwork
+#+BEGIN: clocktable :scope subtree :maxlevel 2
+#+CAPTION: Clock summary at [2023-10-12 Thu 01:24]
+| Headline     | Time   |
+|--------------+--------|
+| *Total time* | *4:54* |
+|--------------+--------|
+| genenetwork  | 4:54   |
+#+END:
+
+:LOGBOOK:
+CLOCK: [2023-10-12 Thu 00:22]--[2023-10-12 Thu 05:25] =>  5:03
+:END:
+
+
+* genenetwork
+#+BEGIN: clocktable :scope subtree :maxlevel 2
+#+CAPTION: Clock summary at [2023-10-14 Sat 00:07]
+| Headline     | Time   |
+|--------------+--------|
+| *Total time* | *4:41* |
+|--------------+--------|
+| genenetwork  | 4:41   |
+#+END:
+
+
+:LOGBOOK:
+CLOCK: [2023-10-14 Sat 01:45]--[2023-10-14 Sat 06:26] =>  4:41
+:END:
+
+
+* genenetwork
+
+** rework on git with command line
+
+;;working on match expression
+
+** git usage with guile
+:LOGBOOK:
+CLOCK: [2023-10-16 Mon 23:45]--[2023-10-16 Mon 23:47] =>  0:02
+:END:
+
+
+https://www.mail-archive.com/guile-user@gnu.org/msg13524.html
+
+
+;;check the file stuff here
+
+https://www.gnu.org/software/guile/manual/html_node/File-System.html
+
+see awesome traversal:https://sr.ht/~brown121407/f.scm/
+
+;;work on api's
+
+
+;;spin web server
+
+;; create apis edit file
+
+
+;;re-organize code to modules
+
+;; look at arun code
+
+;;create api's to test
+
+//check nice articles
+
+see examples
+
+https://notabug.org/ZelphirKaltstahl/guile-examples/src/master/web-development/example-00-using-guile-webserver/example-2.scm
+
+
+guile script:https://github.com/aconchillo/guilescript/blob/master/examples/fibonacci-server.w
+
+
+;;working on web server urli now
+
+example web server
+
+https://dthompson.us/projects/guile-websocket.html
+
+
+https://git.dthompson.us/guile-websocket/tree/guix.scm
+
+
+https://git.dthompson.us/guile-websocket/tree/web/socket/client.scm
+
+//attempt to return json data
+
+
+
+I did a local server setup this is for testing till we migrate
+to gn-guile,
+Added endpoints for fetching file and editing and making commits
+
+Apart from that that I got started working on adding gn-auth
+This is what I will continue working on tomorrow
+* genenetwork
+
+:LOGBOOK:
+CLOCK: [2023-10-16 Mon 17:53]--[2023-10-16 Mon 23:47] =>  5:54
+:END:
+
+
+
+
+
+
+
+I mostly looked at the implementation for gn-auth,docs and
+also trying to integrate this into th
+worked on looking at gn-auth and integrating this the codebase
+* genenetwork
+:LOGBOOK:
+CLOCK: [2023-10-18 Wed 00:50]--[2023-10-18 Wed 05:04] =>  4:14
+:END:
+
+
+
+* genenetwork
+
+** plan for today is to work on json api
+** integrate the parser codebase
+
+** convert the code to module
+
+** authentication
+
+
+
+* genenetwork
+:LOGBOOK:
+CLOCK: [2023-10-20 Fri 00:45]--[2023-10-20 Fri 05:57] =>  5:12
+:END:
+
+still working on adding gn-auth for the editor(WIP)
+refactored code to modules
+Am not sure if UI should be part of the main application
+or just leave it for end users to make their own implementation
+For genenetwork this had already been implemented in the gn-markdown
+
+* genenetwork
+
+** start working  on ui
+
+
+    GUIX_PROFILE="/home/kabui/.guix-profile"
+     . "$GUIX_PROFILE/etc/profile"
+
+
+
+* genenetwork
+
+ #+BEGIN: clocktable :scope subtree :maxlevel 2
+#+CAPTION: Clock summary at [2023-10-24 Tue 03:55]
+| Headline     | Time   |
+|--------------+--------|
+| *Total time* | *4:05* |
+|--------------+--------|
+| genenetwork  | 4:05   |
+#+END:
+
+:LOGBOOK:
+CLOCK: [2023-10-24 Tue 00:52]--[2023-10-24 Tue 04:57] =>  4:05
+:END:
+
+I worked on fixing  endpoint issues
+fix json parsing issues for api metadata
+while handling errors and tests for this
+
+
+https://github.com/robertmcatee/guile-web-server-example/blob/main/hello-world.scm
+
+https://github.com/gabrielchmod777/GNU-Guile-Simple-Http-Server
+
+
+https://elmord.org/code/parenthetical-blognir/tree/blognir/server.scm
+
+https://notabug.org/ZelphirKaltstahl/guile-examples/src/master/web-development
+
+
+;define guix packaging
+
+//convert code to
+
+https://www.gnu.org/software/artanis/manual/html_node/JSON.html
+
+
+TODO:ADD Tests
+
+
+middlewares:https://notabug.org/ZelphirKaltstahl/guile-examples/src/master/web-development/example-03-serve-static-assets/main.scm
+
+
+https://github.com/skangas/guile/blob/master/module/web/request.scm
+
+
+work on uri guery
+
+https://codeberg.org/rlb/guile/src/branch/rev-parallel-tests/module/web/uri.scm
+
+
+https://lists.libreplanet.org/archive/html/guile-user/2022-08/msg00068.html
+
+* debugging issues
+
+* parsing request query object and obtain exact query string
+to yield exact query strings plus multiple matching for query string
+
+* deserializing json from a given request
+
+* genenetwork
+ c
+#+BEGIN: clocktable :scope subtree :maxlevel 2
+#+CAPTION: Clock summary at [2023-10-25 Wed 02:30]
+| Headline     | Time   |
+|--------------+--------|
+| *Total time* | *4:46* |
+|--------------+--------|
+| genenetwork  | 4:46   |
+#+END:
+
+:LOGBOOK:
+CLOCK: [2023-10-25 Wed 02:03]--[2023-10-25 Wed 06:49] =>  4:46
+:END:
+generally worked on adding util functions for example
+parsing request query object and obtain the exact query string
+/multiple query strings
+current implementation with web/uri are not exhaustive enough
+so you end lots of pattern matching
+** adding code to deserializing json data from request objects
+** adding code for error and succcess  messages
+:LOGBOOK:
+CLOCK: [2023-10-26 Thu 20:26]--[2023-10-26 Thu 20:26] =>  0:00
+:END:
+
+
+
+;;work on fetch edit page
+
+//work on matchina json deta
+
+ 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w
+
+ code not returning both values
+
+
+ ;;check for is_repo
+ ;;check for file_path
+ ;;handle error messages
+ ;;status code
+ ;;middleware for auth
+
+
+ ;;guix packagng
+
+
+* genenetwork
+:LOGBOOK:
+CLOCK: [2023-10-26 Thu 14:19]--[2023-10-26 Thu 20:26] =>  6:07
+:END:
+
+ 
+ I am done with implementation and it works
+ I have temporary pushed all the code to
+ https://github.com/Alexanderlacuna/geditor
+ and included docs on how to call the apis'
+  for parsing,editing and make commits for
+  any local repo
+  I will continue working on  adding the auth stuff
+  currently incomplete
+  
+
+
+  I worked on code refactoring dependency fixes and Guix packaging for UI code.
+  . Does Tux have a port to expose a service publicly for others to test?
+* genenetwork
+
+:LOGBOOK:
+CLOCK: [2023-10-28 Sat 02:56]--[2023-10-28 Sat 07:08] =>  4:12
+:END:
+
+
+
+    
+
+
+
+* genenetwork
+:LOGBOOK:
+CLOCK: [2023-10-31 Tue 01:04]--[2023-10-31 Tue 04:04] =>  3:00
+:END:
+
+
+
+test folder
+
+exposing local repo via read
+
+git config 
+
+
+setting global usesr
+
+exposes directory with in guix shell
+
+init git config configuration
+
+test repo
+
+
+rework on edit
+
+
+
+;;serve pages
+;;working on error handling
+;; authentication
+;;update gn-docs
+
+
+
+try to connect to the server page
+
+https://www.gnu.org/software/artanis/manual/manual.html
+
+https://github.com/aconchillo/guile-oauth
+
+fix errors on server
+
+improve restful api;;
+
+;;handle exceptions for these 
+https://www.gnu.org/software/artanis/manual/html_node/index.html#SEC_Contents
+
+
+https://lists.gnu.org/archive/cgi-bin/namazu.cgi?query=decode+json&submit=Search%21&idxname=guile-user&max=20&result=normal&sort=score
+https://lists.gnu.org/archive/html/guile-user/2019-07/msg00048.html
+
+
+https://lists.gnu.org/archive/html/guile-user/2022-10/msg00030.html
+
+
+;;expoaw fir configs
+
+* genenetwork
+
+#+BEGIN: clocktable :scope subtree :maxlevel 2
+#+CAPTION: Clock summary at [2023-11-02 Thu 01:44]
+| Headline     | Time   |
+|--------------+--------|
+| *Total time* | *5:26* |
+|--------------+--------|
+| genenetwork  | 5:26   |
+#+END:
+
+:LOGBOOK:
+CLOCK: [2023-11-02 Thu 01:23]--[2023-11-02 Thu 06:49] =>  5:26
+:END:
+
+** worked on the api
+  *** worked on json decodinf for api endpoints
+  *** adding      error handling for invalid data points
+  *** loading init config required for git
+
+
+** Also worked on the UI
+ *** refactoring and adding docs
+  
+    
+
+
+
+
+
+ ** error handling
+
+ ** update docs
+
+ ** setup git environment based on setup
+
+ https://notabug.org/lloda/guile-raw-strings/src/master/mod/raw-strings.scm
+
+ 
+
+
+ ;;work on authentication
+
+
+ https://vijaymarupudi.com/blog/2022-02-13-error-handling-in-guile.html
+
+
+
+
+
+ I generally worked on documentation for setting up the geditor,
+ Also added this to the issues tracker
+ Apart form that I worked on experimenting on different ways of adding
+ gn-auth;
+ Improving the error handling specifically for the api
+ 
+
+
+ 
+* genenetwork
+:LOGBOOK:
+CLOCK: [2023-11-03 Fri 16:09]--[2023-11-03 Fri 21:39] =>  5:30
+:END:
+
+   
+
+
+
+28-29, 30-31-32-33, 35-36-37, 40-41, 44-45, Big one 48-48-50, 52, 53
+
+
+
+
+
+;;work on error handling for api
+
+;;improving on messaging
+
+;;work on authentication
+
+;; guix packaging
+
+;;maybe add testing
+
+
+;;reading on error handling guile
+
+
+https://dustycloud.org/blog/guile-errors/
+
+
+https://dustycloud.org/blog/
+
+
+https://dustycloud.org/blog/
+
+https://www.scheme.com/tspl4/exceptions.html
+
+
+
+
+** on UI work on packaging the library in guix
+
+
+https://github.com/vcflib/vcflib
+
+https://github.com/Alexanderlacuna/swe-essential-books
+
+
+https://github.com/branjam4/bran-channel/blob/main/bran/emacs-xyz.scm
+
+
+
+;;do packaging for ace
+
+;;markdown
+;;markdown highlight
+
+
+## first rework on localstorage
+;;local storage
+
+
+https://github.com/majorsilence/ubiquitous-octo-invention/blob/main/app.js
+
+
+
+what I need to do:
+
+
+1)local storage saving
+
+2) local drating pages
+
+3) guix packaging (DONE)
+
+
+geditor:
+1) error handling 
+
+
+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
+
+https://www.jsdelivr.com/package/npm/markedjs-extra
+
+
+https://without.boats/blog/a-four-year-plan/
+
+
+;;rework on the ui
+
+* genenetwork
+ #+BEGIN: clocktable :scope subtree :maxlevel 2
+ #+CAPTION: Clock summary at [2023-11-07 Tue 21:48]
+ | Headline     | Time   |
+ |--------------+--------|
+ | *Total time* | *5:01* |
+ |--------------+--------|
+ | genenetwork  | 5:01   |
+ #+END:
+
+
+
+ 
+:LOGBOOK:
+CLOCK: [2023-11-07 Tue 14:14]--[2023-11-07 Tue 16:05] =>  1:51
+CLOCK: [2023-11-07 Tue 11:03]--[2023-11-07 Tue 14:13] =>  3:10
+:END:
+
+
+
+
+I packaged all JavaScript packages for the UI, made  changes for
+locally drafting and saving pages,
+and also fixed issues related to paths. 
+While waiting for this to be  integrated  to GeneNetwork,
+is there something else I can work on in the meantime?
+
+
+
+
+
+https://dotspoort.com/
+
+
+* genenetwork
+
+** integrating this work
+
+** parse through   shelby codebase
+
+
+https://github.com/ShelbySolomonDarnell/GN-LLMs/blob/main/GN-GPT3/out/GeneNetworkOrg-LLM.pdf
+
+
+* genenetwork
+
+** daytime gn2
+
+** eve and weekends exploration
+
+
+
+I mostly worked on parsing through
+GN-LLMs CODE 
+to gain a general understanding of
+it and tried to run things locally.
+* genenetwork
+:LOGBOOK:
+CLOCK: [2023-11-10 Fri 00:17]--[2023-11-10 Fri 05:29] =>  5:12
+:END:
+
+
+
+
+* genenetwork
+
+** read on the llm work
+
+** run the setup
+
+** markdown editor integration
+
+
+** fix js issues
+
+
+** review build
+
+
+** [start with this] rework on ace editor packaging and testing
+
+
+** look at shelbys code
+
+
+
+
+
+https://github.com/ShelbySolomonDarnell/GN-LLMs/tree/main/material-flask/apps/apihandler
+
+https://github.com/ShelbySolomonDarnell/GN-LLMs
+
+
+LLM large text model
+
+1)aim run the applicatin
+
+
+http://127.0.0.1:5000/
+
+
+check on fahamu api
+
+https://digest.fahamuai.com/
+
+
+
+
+I worked on codebase readup,also finished on the setup for the LLM,
+general testing for the api.
+I also pushed the guix packages  for review and  merging
+
+* genenetwork
+
+:LOGBOOK:
+CLOCK: [2023-11-11 Sat 01:24]--[2023-11-11 Sat 06:54] =>  5:30
+:END:
+
+
+https://github.com/rust-lang/rust/tree/master/src/bootstrap
+
+
+
+
+
+on the UI we it was suggested in the meetup we add search on the homepage
+the search results would then be rendered on a new page
+from the fahamu api for  logged in users
+
+
+
+I mosty worked on setting genenetwork up and the initial UI and trying to
+integrate that with the current LLM setup
+* genenetwork
+:LOGBOOK:
+CLOCK: [2023-11-14 Tue 19:01]--[2023-11-16 Thu 01:51] => 30:50
+:END:
+
+
+
+
+
+
+
+
+Am still working on integrating the search though I should
+have something presentable tomorrow with no auth.
+
+* genenetwork
+:LOGBOOK:
+CLOCK: [2023-11-16 Thu 01:41]--[2023-11-16 Thu 06:51] =>  5:10
+:END:
+
+
+
+
+
+* genenetwork
+
+** running genenetwork
+
+debugging run till 1:
+
+
+go thorugh the raw way
+
+break from 1:30 till 2;20
+
+raw method works
+
+
+
+idenitifying error handling for codebase
+
+
+
+ui Designing
+
+break 14:27-14:45
+
+
+
+
+https://careerfoundry.com/en/blog/ui-design/chatgpt-for-ui-design/
+
+
+https://careerfoundry.com/en/blog/ui-design/chatgpt-for-ui-design/
+
+
+
+
+designing the UI
+
+
+* open PR genenetwork2
+* add search
+* rethink about UI
+
+* query mv or service
+
+
+* push code
+
+
+* update
+break till 1540
+
+
+
+
+
+https://www.futurile.net/2023/11/07/guix-time-travel-tricks/
+
+** test thow
+
+
+
+* genenetwork
+:LOGBOOK:
+CLOCK: [2023-11-21 Tue 16:37]--[2023-11-21 Tue 23:17] =>  6:40
+:END:
+#+BEGIN: clocktable :scope subtree :maxlevel 2
+#+CAPTION: Clock summary at [2023-11-21 Tue 23:18]
+| Headline     | Time   |
+|--------------+--------|
+| *Total time* | *6:40* |
+|--------------+--------|
+| genenetwork  | 6:40   |
+#+END:
+
+I have completed the task of integrating the LLM into GeneNetwork,
+including the presentation of results,
+questions, data, and references.
+On the presentation of data(UI) I made several experiments,will try to get
+feedback which is okay.
+On another note, I am unsure whether
+the intention was to treat GN-LLM as its own service
+or to extract part of its client API handler to GN2
+and use it as API endpoints since his design
+was a complete MVC project
+
+
+
+
+
+* genenetwork
+#+BEGIN: clocktable :scope subtree :maxlevel 2
+#+CAPTION: Clock summary at [2023-11-23 Thu 02:49]
+| Headline     | Time   |
+|--------------+--------|
+| *Total time* | *4:28* |
+|--------------+--------|
+| genenetwork  | 4:28   |
+#+END:
+
+:LOGBOOK:
+CLOCK: [2023-11-23 Thu 02:38]--[2023-11-23 Thu 07:06] =>  4:28
+:END:
+Worked on refactoring the LLM to be endpoints and moving this
+Gn2.
+Shelby said this would be okay
+
+
+
+
+
+check list what todo o
+
+
+
+* genenetwork
+:LOGBOOK:
+CLOCK: [2023-11-24 Fri 00:29]--[2023-11-24 Fri 05:29] =>  5:00
+:END:
+
+
+I mostly worked on adding api endpoints for LLM for gn3
+also trying to get tried getting a better understanding
+for refactoring and adding tests
+
+
+I worked on refactoring the  client code the  interface
+for fahamu api and also response data parser
+
+
+* genenetwork
+:LOGBOOK:
+CLOCK: [2023-11-28 Tue 14:25]--[2023-11-28 Tue 20:21] =>  5:56
+:END:
+
+#+BEGIN: clocktable :scope subtree :maxlevel 2
+#+CAPTION: Clock summary at [2023-11-28 Tue 22:10]
+| Headline     | Time   |
+|--------------+--------|
+| *Total time* | *5:56* |
+|--------------+--------|
+| genenetwork  | 5:56   |
+#+END:
+
+
+
+I  finshed on refactoring clients code + response data code.
+For the api endpoint I added new get  endpoint for ask question
+which returns a taskid  then  using that get answers based on those references
+
+
+
+* genenetwork
+:LOGBOOK:
+CLOCK: [2023-11-30 Thu 01:25]--[2023-11-30 Thu 05:54] =>  4:29
+:END:
+#+BEGIN: clocktable :scope subtree :maxlevel 2
+#+CAPTION: Clock summary at [2023-11-30 Thu 02:01]
+| Headline     | Time   |
+|--------------+--------|
+| *Total time* | *4:29* |
+|--------------+--------|
+| genenetwork  | 4:29   |
+#+END:
+
+
+
+
+I worked on calling the  api endpoints from gn3 and rendering this in gn2
+
+* genenetwork
+:LOGBOOK:
+CLOCK: [2023-12-01 Fri 01:25]--[2023-12-01 Fri 06:50] =>  5:25
+:END:
+
+
+
+
+
+
+* genenetwork
+:LOGBOOK:
+CLOCK: [2023-12-06 Wed 00:04]--[2023-12-06 Wed 05:37] =>  5:33
+:END:
+
+I worked on gn-llm rendering UI.for the api I think
+I will handle the gn-auth once this is complete
+
+
+* genenetwork
+:LOGBOOK:
+CLOCK: [2023-12-07 Thu 03:22]--[2023-12-07 Thu 07:54] =>  4:32
+:END:
+
+Made some few changes for UI + improvements.hopefully I can
+be done this before the weekend
+
+
+
+
+* genenetwork
+
+/api mapping
+
+2) code move
+
+
+3) add tests and refactoring
+
+4) explore ui
+
+5)implemenenet
+
+6) gn auth
+//reread the docs
+
+//first test the client
+
+
+first fix the importsue
+
+
+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
+
+
+
+* genenetwork
+#+BEGIN: clocktable :scope subtree :maxlevel 2
+#+CAPTION: Clock summary at [2023-12-12 Tue 00:46]
+| Headline     | Time   |
+|--------------+--------|
+| *Total time* | *6:42* |
+|--------------+--------|
+| genenetwork  | 6:42   |
+#+END:
+
+:LOGBOOK:
+CLOCK: [2023-12-12 Tue 15:40]--[2023-12-12 Tue 22:22] =>  6:42
+:END:
+
+
+I worked on adding the UI to GN2.
+Simple raw rendering from GN2 works with a call to GN3.
+I pushed the API code to GN3 for testing and merging.
+https://github.com/genenetwork/genenetwork3/pull/140/files
+#+BEGIN: clocktable :scope subtree :maxlevel 2
+#+CAPTION: Clock summary at [2023-12-12 Tue 00:47]
+| Headline     | Time   |
+|--------------+--------|
+| *Total time* | *6:42* |
+|--------------+--------|
+| genenetwork  | 6:42   |
+#+END:
+
+
+
+* genenetork
+:LOGBOOK:
+CLOCK: [2023-12-13 Wed 02:19]--[2023-12-13 Wed 07:29] =>  5:10
+:END:
+
+I worked on improving the UI and
+also fixing bug to do with fetching
+task id for api call
+
+
+#+BEGIN: clocktable :scope subtree :maxlevel 2
+#+CAPTION: Clock summary at [2023-12-13 Wed 03:33]
+| Headline     | Time   |
+|--------------+--------|
+| *Total time* | *5:10* |
+|--------------+--------|
+| genenetork   | 5:10   |
+#+END:
+
+
+* genenetwork
+
+** read articles till 7:00
+** work on gn2 ui + frontend
+
+
+
+see this:https://edu.anarcho-copy.org/UNIX/
+
+
+
+
+* setup genenetwork2
+
+
+     GUIX_PROFILE="/home/kabui/.guix-extra-profiles/genenetwork"
+
+
+     . "$GUIX_PROFILE/etc/profile"
+
+
+
+
+           GUIX_PROFILE="/home/kabui/.guix-extra-profiles/genenetwork"
+
+	       . "$GUIX_PROFILE/etc/profile"
+
+
+
+* https://hoppscotch.io/
+
+
+
+https://genenetwork.fahamuai.com/answers?task_id=765E3FAFCBC389631F09BB567A62B646
+
+
+
+https://genenetwork.fahamuai.com/api/tasks/answers?task_id=65DC64764BDE03290E62922F6923D24C
+
+
+
+
+
+
+//handle accordion refs
+
+
+//make gn2 run
+
+
+
+
+env GUIX_PACKAGE_PATH=../guix-bioinformatics/
+
+env GN2_PROFILE=/home/kabui/.guix-extra-profiles/genenetwork
+SERVER_PORT=5300 \
+    GENENETWORK_FILES=/home/kabui/data/genotype_files \
+    GN_PROXY_URL="http://localhost:8080"\
+    GN3_LOCAL_URL="http://localhost:8081"\
+    ./bin/genenetwork2 ./etc/default_settings.py -gunicorn-dev
+
+
+ * setup gn3 for run
+ 
+
+ https://explodingtopics.com/blog/chatgpt-alternatives
+
+
+
+
+ working on the ui  implemenation
+
+ add search UI
+
+
+
+
+ ** todo add RTF stuff
+
+
+
+ * what do I need to solve
+
+   1) first search box
+
+    2) rendering results
+
+
+ step 1:work and render the button
+
+ add waiting page
+
+
+ work on input form and spinner
+
+
+
+ 
+* genenetwork
+:LOGBOOK:
+CLOCK: [2023-12-15 Fri 00:39]--[2023-12-15 Fri 05:18] =>  4:39
+:END:
+
+I did a review of the gn3 api code with the Nairobi team,
+and also worked on the UI
+
+*
+
+
+*  genenetwork
+**  update gn-issue tracker
+
+** general ui setup api call
+
+**   ui test initial test
+
+
+create caller api in gn2 server
+
+
+* wqflask/wqflask/static/new/javascript/dataset_select_menu_orig.js
+
+
+* genenetwork
+
+Experimented on different user presentation UI
+and refactored js code for rendering and making
+api calls
+
+* genenetwork
+#+BEGIN: clocktable :scope subtree :maxlevel 2
+#+CAPTION: Clock summary at [2023-12-20 Wed 02:02]
+| Headline     | Time   |
+|--------------+--------|
+| *Total time* | *5:48* |
+|--------------+--------|
+| genenetwork  | 5:48   |
+#+END:1
+
+:LOGBOOK:
+CLOCK: [2023-12-20 Wed 00:01]--[2023-12-20 Wed 05:49] =>  5:48
+:END:
+
+I experimented with other user presentation UIs
+and refactored the  code to enhance rendering and making API calls.
+
+
+
+
+* first make post request
+
+
+//work on containing the text for references
+
+//handling errors
+
+// finish with loader
+
+//screenshot
+
+//email
+
+//work on this form
+
+//tone the color for reference or query
+
+//gn3 configuraion
+
+
+
+
+//gn3  code setup
+
+
+//create blueprint for this
+
+//test out codebase
+
+
+auth token biggest issue
+
+
+
+//remove instance variables
+
+
+todo:work on buttons
+work on loader
+code refactoring
+
+//make api call to be async
+
+
+//work on delaying the api call
+
+
+work on refactoring the codebase
+
+
+
+
+//connect for next setup
+
+
+
+TODO :fix api config stuff
+TODO: work on loader
+TODO: Streamline with async io stuff
+
+TODO:  authentication for token
+
+TODO:  show scroll shleby setup
+
+
+implemenent a loader
+
+reduce the delay
+
+asyncio programming
+
+
+
+https://blog.bajarangisoft.com/blog/how-to-show-loader-after-submitting-form
+
+
+
+puahing for merge *** here
+
+implementation for loading
+
+after
+
+handle working with apikeys *** ***
+
+
+steps:
+
+work on importing the keys
+work on the mypy stuff
+
+WORK ON ERRORS 
+
+
+<script src="http://code.jquery.com/jquery.js"></script>
+
+
+
+              urljoin(GN3_LOCAL_URL,
+                        "/api/llm/gnqna"),
+
+
+			https://ci.genenetwork.org/jobs/genenetwork3-build-xapian-index/384
+
+
+//handling errors
+
+
+
+>>What is this token for?
+
+We are currently integrating gn-llm which shelby worked
+on to gn2 home page
+This queries  response from fahamu api
+see: https://genenetwork.fahamuai.com/
+which requires a token(FAHAMU_AUTH_TOKEN):
+
+>>Does this have Pjotr's approval?
+Pjotr was okay with this for CD,the idea
+was to have this only accessible for people logged in.
+
+>> And, where should I add this token?
+
+The token needs to be read by gn3 as an env variable
+Am not quite familiar how you handle other
+env variables  for example those in setting file for gn3.
+
+https://github.com/genenetwork/genenetwork3/blob/3630c81c0745930bec498018eb31fc2002529c58/gn3/settings.py#L37
+
+
+
+
+
+* genenetwork
+
+
+** DONE  work on res dubmit more queries
+** work on  adding auth(ask fred)
+
+** DONE resubmitting button(twice bug)
+
+
+
+** TODO add loader (spinner)
+
+keypress submits up and down presses
+
+
+looking on the authentication stuff in gn2 ::reference fred for 
+
+
+
+https://github.com/genenetwork/genenetwork2/pull/new/feature/integrate-oauth-gn-llm
+
+
+https://github.com/genenetwork/genenetwork2.git
+
+https://leanpub.com/fp-made-easier
+
+
+
+
+* genenetwork
+
+** work on rendering error messages
+
+** handling secret keys
+
+
+
+
+
+https://discourse.purescript.org/t/new-purescript-book-functional-programming-made-easier/2390
+
+
+https://libgen.rs/
+
+
+https://libgen.gs/
+s4 32:07
+
+
+Hi Pjotr,am back  from holidays,but this is what I have
+been working on.
+I finished setup for fetching secret keys in gn3
+that includes auth key
+and also pushed the code authentication-llm binding code.
+This is should be testable once  gn3 api for cd
+is back live(currently down for cd)
+
+https://cd.genenetwork.org/gnqna
+
+
+
+* genenetwork
+
+** work from 18:00 mostly error handling
+
+
+** reading monads
+
+
+
+** connect to tux and debugging gn3 error
+SCHEDULED: <2024-01-12 Fri> DEADLINE: <2024-01-12 Fri>
+https://github.com/jasondelaat/pymonad
+
+
+1)begin with gn2 setup
+
+
+https://github.com/Significant-Gravitas/AutoGPT/issues/3728
+
+control-c control-d
+
+
+
+* genenetwork
+
+** work from 10:40
+
+
+* articel on navigating with less
+
+https://flaviocopes.com/linux-command-less/
+
+
+apparently gn3 is doing nothing ;;looking at the configuration for gn3
+
+ create issues 
+
+
+ #+BEGIN_COMMENT
+create issue for gn2
+#+END_COMMENT
+
+
+tail -f   gennetwork.log
+
+
+org agenda
+
+
+curl -d gennetwork.org/api3/api/llm/gngna
+
+
+gh
+* genenenetwork
+
+** mapping gn-llm for refactorng
+
+request api handler -> fahamu api handler -> fetch results -> add referencess materials
+
+
+
+* genenetwork
+
+** agenda for today
+
+//debug issue for results cannot get
+// look  at refactoring codebase
+
+
+
+docs on org agenda: https://redgreenrepeat.com/2021/04/09/org-mode-agenda-getting-started-scheduled-items-and-todos/
+
+
+* TODO  test this agenda
+create issue for this 
+code failing for longer setences structure
+how can we know the results
+
+// integrate gn-auth  to this
+
+
+rethink about sending requests
+
+
+** implement auth
+
+
+
+https://medium.com/@rajeshpillai/api-rate-limiting-2542c2a90b38
+
+
+open issues
+
+qutebroqwser
+
+** genenetwork2
+
+#+BEGIN: clocktable :scope subtree :maxlevel 2
+#+CAPTION: Clock summary at [2024-01-10 Wed 22:10]
+| Headline         | Time   |      |
+|------------------+--------+------|
+| *Total time*     | *6:58* |      |
+|------------------+--------+------|
+| \_  genenetwork2 |        | 6:58 |
+#+END:
+
+:LOGBOOK:
+CLOCK: [2024-01-10 Wed 17:49]--[2024-01-10 Wed 19:10] =>  1:21
+CLOCK: [2024-01-10 Wed 10:10]--[2024-01-10 Wed 15:47] =>  5:37
+CLOCK: [2024-01-10 Wed 15:46]--[2024-01-10 Wed 15:46] =>  0:00
+
+
+
+:END:
+
+
+*** TODO open issue for requests and gn-auth 
+DEADLINE: <2024-01-10 Wed>
+
+*** TODO  integrate gn-auth
+DEADLINE: <2024-01-10 Wed>
+
+*** TODO mapping empty request issue
+DEADLINE: <2024-01-11 Thu>
+
+
+
+# look at json-ld
+
+
+look at ways to validate the token
+
+
+implementing gn-auth
+
+
+
+//implement error page for  gnqna
+
+
+//access resource https://docs.authlib.org/en/latest/flask/2/resource-server.html
+
+
+* genenetwork
+
+** objective speeding the gn-llm
+
+*** avoid empty references when you make request to gn-llm
+
+
+//subtodoes
+***  demo editor stuff
+
+*** replace js with htmx
+
+
+
+
+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w
+documentation on using ssh key:
+https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/GitHub-SSH-KeyGen-Example
+
+
+https://www.digitalocean.com/community/tutorials/understanding-the-ssh-encryption-and-connection-process
+
+
+
+
+* genenetwork
+
+#+BEGIN: clocktable :scope subtree :maxlevel 2
+#+CAPTION: Clock summary at [2024-01-12 Fri 10:46]
+| Headline     | Time   |
+|--------------+--------|
+| *Total time* | *6:00* |
+|--------------+--------|
+| genenetwork  | 6:00   |
+#+END:
+
+:LOGBOOK:
+CLOCK: [2024-01-11 Thu 18:05]--[2024-01-11 Thu 19:18] =>  1:13
+CLOCK: [2024-01-11 Thu 16:27]--[2024-01-11 Thu 18:04] =>  1:37
+CLOCK: [2024-01-11 Thu 15:14]--[2024-01-11 Thu 16:14] =>  1:00
+CLOCK: [2024-01-11 Thu 11:14]--[2024-01-11 Thu 13:24] =>  2:10
+
+
+
+
+:END:
+
+
+* implement gn-llm reference rating
+
+
+
+//update issue tracker
+//test out gn-llm with the new api key
+
+
+from bons:https://cs3110.github.io/textbook/chapters/intro/3110.html
+jgart:https://www.metalevel.at/prolog
+
+
+//desigi
+
+
+
+/api/tasks/feedback?task_id="46F79382A8147D99B83F181F3493637F"&document_id="d2f9c5cf-835c-450a-bb42-a2454a99e058"feedback=-1
+
+
+* DONE refactor api endpoint
+:LOGBOOK:
+CLOCK: [2024-01-12 Fri 11:03]--[2024-01-12 Fri 11:03] =>  0:00
+:END:
+
+//learn how to make better api endpoints
+
+
+
+
+https://codepen.io/MirzaLeka/pen/BvGMVP
+
+
+https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/
+
+
+
+
+google best api practices
+
+ms  best conventions practices
+
+
+djvorac
+
+
+note +5 hrs for uber and room
+
+
+
+
+
+** finish on the api stuff + UI
+:LOGBOOK:
+CLOCK: [2024-01-12 Fri 14:49]--[2024-01-12 Fri 14:50] =>  0:01
+CLOCK: [2024-01-12 Fri 14:48]--[2024-01-12 Fri 14:49] =>  0:01
+CLOCK: [2024-01-12 Fri 11:03]--[2024-01-12 Fri 13:23] =>  2:20
+:END:
+
+
+** adding to global search
+
+
+** user caching like ::mem :;account
+
+//create bash file
+
+
+
+work on writing better endpoints
+
+https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design
+
+
+
+
+
+
+
+make local  setup
+
+
+local api key is working
+
+
+magit docs
+
+
+https://emacsair.me/2017/09/01/magit-walk-through/
+
+
+
+* genenetwork
+
+monday open new issue debugging nginx error
+
+
+
+
+
+* genenetwork
+:LOGBOOK:
+CLOCK: [2024-01-16 Tue 11:30]--[2024-01-16 Tue 16:14] =>  4:44
+:END:
+
+
+** add api code for sending feedback
+
+** add ui for sending feedback desi
+
+
+
+url for resubmitting
+
+
+* TODO  IMPlementing notification systen that shows for 1 second then disappearscsa
+
+
+
+Mapping user Profile to Results table  think about it
+
+
+tonight debug the nginx issue
+start mapping caching 
+
+
+
+
+* genenetwork
+:LOGBOOK:
+CLOCK: [2024-01-17 Wed 09:57]--[2024-01-17 Wed 10:07] =>  0:10
+:END:
+
+** refactor code + add test modules
+
+
+** implementing caching mechanism for llm searches
+
+package fontawesome
+
+
+
+
+fix gn cors issues
+
+
+
+first make rating work
+work on code refactoring
+
+
+write tests for 
+
+
+with gn-llm look at caching data points
+
+
+
+
+I worked on refactoring tests for gn-llm code +
+adding more tests,
+Finished working on the gn-llm reference rating,though
+as per Shelby this will be best effective when we
+are running our own LLM locally
+Apart from that got assigned
+https://issues.genenetwork.org/issues/gn_llm_db_cache_integration
+
+
+
+improve on the error handling 3 values got 2
+
+
+mostly working on the design
+
+look at rdf,lmdb and redis
+
+what is the main purpose long term or data usage
+
+
+https://aartaka.me/
+
+https://github.com/aartaka/emacs-config
+
+https://github.com/aartaka/stdlambda
+
+
+https://aartaka.me/projects
+
+looking at the gn3 redis code
+
+see this:https://www.linkedin.com/pulse/supercharge-your-api-layer-caching-flask-redis-nadeera-sampath/
+
+
+
+* make redis implementation
+
+* work on the details from shelby
+
+
+refer to this code:
+
+https://www.codehim.com/bootstrap/bootstrap-collapsible-panel-with-up-down-arrow-icon/
+
+
+work for if loop.first
+
+
+
+implement modal mode for search history
+
+
+faba topup
+
+* genenetwork
+:LOGBOOK:
+CLOCK: [2024-01-22 Mon 13:09]
+:END:
+
+
+
+** think about how to store the redis storage the keys and values
+
+//looking at the redis store 
+use.name-> hash of the query-> response
+
+ approach one:
+ 1) list of all queries
+
+  2) hashmap with the queries + response
+
+   issue:
+      deleting keys: expiry
+
+
+ function to hash this
+
+ require username/or email then -> use that for create a hash
+
+
+
+ simple solution using prefixes
+
+ think about how to store the keys
+
+ work on ui
+
+
+* genenetwork2
+
+**  implement ui for search history
+
+** integrate the ui endpoint
+order the results 
+
+
+
+work on delete and clear all
+
+refactor on the  api endpoint
+
+adding token validation
+
+
+
+https://wine.htmlvalidator.com/install-wine-on-ubuntu-23.04.html
+
+
+https://phoenixnap.com/kb/how-to-install-wine-on-ubuntu
+
+
+https://gcore.com/learning/how-to-install-proton-on-linux/
+
+
+* genenetwork
+I finished up on implementing the api endpoints and UI for the  user caching stuff
+ I will try to implement delete feature for this then pick a new task to work on
+
+
+
+ 1) relook at the ui
+
+ 2) deletion hist feature
+
+ 3.  +api endpoint + ui for this
+
+ 3) gn2/gn3 integrate auth
+
+
+4) base html does not update the first element
+
+
+5) improve error handling
+
+
+
+capp the history
+
+
+
+pub med
+
+the look at pulication
+
+
+
+
+epic ridge
+
+https://www.google.com/search?channel=fs&client=ubuntu-sn&q=epic+ridge#lpg=cid:CgIgAQ%3D%3D,ik:CAoSLEFGMVFpcE1BaDRPOE1hNUE5dFEtOGdydGdsd19kdTZvZkNVbFNjUE1NSzJv
+
+
+* genenetwork
+
+** refactoring gn3 code and merge
+
+implement delete search record
+
+
+add on the ui functionality delete feature disabled button etx
+
+add delete all functionality or delete one funcitonality
+
+generally add the delete funcionality
+
+**
+https://itsfoss.com/bootable-windows-usb-linux/
