@@ -430,4 +430,12 @@ article on functional python
 
 ** nice page on org clock
 
+\
+
+
 * I read the book: "Sketchy Scheme"
+
+
+
+website design
+https://www.minicheps.co.ke/visualart
