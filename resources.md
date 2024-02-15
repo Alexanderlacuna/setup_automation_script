@@ -438,4 +438,12 @@ article on functional python
 
 
 website design
+
 https://www.minicheps.co.ke/visualart
+
+
+
+## build
+
+https://evertpot.com/universal-commonjs-esm-typescript-packages/
+
