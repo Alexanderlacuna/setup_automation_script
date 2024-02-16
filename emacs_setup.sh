@@ -1,11 +1,14 @@
 #!/bin/bash
 
-# find fix not stable maybe call script to make sure snap is installed
-
-sudo snap install emacs --classic
 
 
-#guix install emacs guile emacs-geiser emacs-geiser-guile
+
+
+# update emacs guix pull
+
+guix pull 
+
+guix install emacs guile emacs-geiser emacs-geiser-guile
 
  # fetch the github repo
 
@@ -17,9 +20,7 @@ cd ~
 git clone "https://github.com/Alexanderlacuna/Emacs-Config.git" 
 
 
-
-
-cp ~/Emacs-Config/init3.el ~/.emacs.d/init.el
+cp ~/Emacs-Config/init.el ~/.emacs.d/init.el
 
 mkdir -p ~/.emacs.d/settings
 
