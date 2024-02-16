@@ -20,7 +20,7 @@ cd ~
 git clone "https://github.com/Alexanderlacuna/Emacs-Config.git" 
 
 
-cp ~/Emacs-Config/init.el ~/.emacs.d/init.el
+cp ~/Emacs-Config/init.el ~/.emacs.d/init3.el
 
 mkdir -p ~/.emacs.d/settings
 
