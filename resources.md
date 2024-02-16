@@ -459,3 +459,7 @@ try to send git-emai:
 sending patches and configuring google specific auth
 
 ;; https://blog.revathskumar.com/2019/08/git-send-patch-using-send-email-and-gmail.html
+
+## finances
+
+* https://www.cdsckenya.com/
