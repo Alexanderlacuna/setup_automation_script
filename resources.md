@@ -452,3 +452,10 @@ https://evertpot.com/universal-commonjs-esm-typescript-packages/
 
 ** using github authy:
 https://support.authy.com/hc/en-us/articles/1260803052049-Authy-App-for-Linux-System-Requirements
+
+
+try to send git-emai:
+
+sending patches and configuring google specific auth
+
+;; https://blog.revathskumar.com/2019/08/git-send-patch-using-send-email-and-gmail.html
