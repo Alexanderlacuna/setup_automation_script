@@ -368,7 +368,7 @@ todo:
 
 -  https://marabos.nl/atomics/
 
-
+- https://rust-book.cs.brown.edu/
 ## python
 
 
