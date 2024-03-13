@@ -122,7 +122,6 @@ https://superuser.com/questions/332510/how-to-transfer-my-ssh-keys-to-another-ma
 
 - https://www.how2shout.com/linux/3-ways-to-install-emacs-text-editor-on-ubuntu-22-04-lts/
 
-
 ### magit walkthrough
 
 - https://emacsair.me/2017/09/01/the-magical-git-interface/
@@ -330,7 +329,11 @@ todo:
 
 
 
+### python
 
+- python glob dict nested dict,parsing
+
+- https://glom.readthedocs.io/en/latest/tutorial.html#interactive-deep-get
 
 
 ### functional programming
