@@ -369,6 +369,8 @@ todo:
 -  https://marabos.nl/atomics/
 
 - https://rust-book.cs.brown.edu/
+
+- https://forge.rust-lang.org/infra/other-installation-methods.html
 ## python
 
 
