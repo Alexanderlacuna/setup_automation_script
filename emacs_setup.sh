@@ -6,7 +6,7 @@
 
 # update emacs guix pull
 
-guix pull 
+#guix pull 
 
 guix install emacs guile emacs-geiser emacs-geiser-guile
 
@@ -20,8 +20,9 @@ cd ~
 git clone "https://github.com/Alexanderlacuna/Emacs-Config.git" 
 
 
-cp ~/Emacs-Config/init.el ~/.emacs.d/init3.el
+cp ~/Emacs-Config/init3.el ~/.emacs.d/init.el
 
 mkdir -p ~/.emacs.d/settings
 
 cp -r ~/Emacs-Config/settings ~/.emacs.d
+
