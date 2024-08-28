@@ -44,6 +44,7 @@
 
 ### books
 
+ - https://github.com/ImplFerris/LearnRust
  - rust for rustaceans
 
  - algorithms in rust https://github.com/TheAlgorithms/Rust
@@ -103,6 +104,13 @@ https://superuser.com/questions/332510/how-to-transfer-my-ssh-keys-to-another-ma
 ## Emacs resources
 
 
+### org babel execution
+
+https://orgmode.org/worg/org-contrib/babel/languages/ob-doc-python.html
+
+### move text up
+
+https://github.com/emacsfodder/move-text
 
 ### add ons
 #### indent guide https://github.com/zk-phi/indent-guide#comparisons-with-highlight-indentation
@@ -117,6 +125,9 @@ https://superuser.com/questions/332510/how-to-transfer-my-ssh-keys-to-another-ma
 
 = https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html emacs docs
 
+### org timer
+
+https://writequit.org/denver-emacs/presentations/2017-04-11-time-clocking-with-org.html
 
 ### emacs server
 
@@ -208,7 +219,8 @@ Is differential privacy somehow related to homomorphic encryption? If not, what 
 
 ## data structures and algorithms
 
-https://binarysearch.com/problems
+- https://binarysearch.com/problems  (important)
+- https://www.programiz.com/dsa/binary-search
 
 ### jgrt
 
@@ -477,3 +489,46 @@ sending patches and configuring google specific auth
 
 
 
+
+
+
+## predictability
+
+-  https://www.quora.com/How-do-I-stop-being-predictable
+
+
+## 2024
+
+dsa books shelf
+https://github.com/goldcoders/DSA.git
+
+
+## Generator
+
+https://macire.co.ke/product/1kw-1000watts-marstek-usa-portable-power-station-s1000p-s-with-lithium-battery/?gad_source=1&gclid=Cj0KCQjw_-GxBhC1ARIsADGgDjuXIeDcEbk8vSx_R2WpH-1O8rHMcf7guWZXIyE5MGol9gMgzOE_zKQaAtAbEALw_wcB
+
+https://www.kilimall.co.ke/listing/2944015?sku_id=19662898&gad_source=1&gclid=Cj0KCQjw_-GxBhC1ARIsADGgDjtGqBogYvvCgg4emlxyQzaNrl_rnPJBCiM3CSWnmpasMVlexrQPoxUaArf2EALw_wcB
+https://www.jumia.co.ke/generators/
+
+
+## bons
+
+tmux
+
+
+## Guix
+
+https://gricad-doc.univ-grenoble-alpes.fr/en/hpc/softenv/container/
+
+
+## Bons
+
+*mastering api architecture*
+*fundamentals of api architure*
+*system design interview*
+
+
+## adit
+
+Aditya Y. Bhargava
+https://www.adit.io
