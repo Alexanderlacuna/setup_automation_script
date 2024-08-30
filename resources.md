@@ -5,7 +5,8 @@
 ### links
 
 - https://lispcookbook.github.io/cl-cookbook/data-structures.html#push-item-place
-
+- (common lisp and ai very nice book) https://norvig.github.io/paip-lisp/#/preface
+- https://mitpress.mit.edu/9780262535519/the-reasoned-schemer/ (scheme)
 
 ## python
 
